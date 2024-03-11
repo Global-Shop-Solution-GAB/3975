@@ -1,0 +1,2028 @@
+Program.Sub.ScreenSU.Start
+gui.frmMain..create
+gui.frmMain..caption("Quality Requirements")
+gui.frmMain..size(7530,5460)
+gui.frmMain..minx(0)
+gui.frmMain..miny(0)
+gui.frmMain..position(0,0)
+gui.frmMain..event(unload,frmmain_unload)
+gui.frmMain..alwaysontop(False)
+gui.frmMain..fontname("Arial")
+gui.frmMain..fontsize(8)
+gui.frmMain..forecolor(0)
+gui.frmMain..fontstyle(,,,,)
+gui.frmMain..BackColor(-2147483633)
+gui.frmMain..controlbox(True)
+gui.frmMain..maxbutton(False)
+gui.frmMain..minbutton(False)
+gui.frmMain..mousepointer(0)
+gui.frmMain..moveable(True)
+gui.frmMain..sizeable(False)
+gui.frmMain..ShowInTaskBar(True)
+gui.frmMain..titlebar(True)
+gui.frmMain.lbl1.create(label,"FAI Req?",True,1935,255,1,200,200,True,0,Arial,8,-2147483633,0)
+gui.frmMain.lbl1.ForeColor(32768)
+gui.frmMain.lbl1.defaultvalue("")
+gui.frmMain.lbl1.controlgroup(0)
+gui.frmMain.ddlFAIReq.create(dropdownlist)
+gui.frmMain.ddlFAIReq.visible(True)
+gui.frmMain.ddlFAIReq.size(3310,330)
+gui.frmMain.ddlFAIReq.zorder(0)
+gui.frmMain.ddlFAIReq.position(200,410)
+gui.frmMain.ddlFAIReq.enabled(True)
+gui.frmMain.ddlFAIReq.fontname("Arial")
+gui.frmMain.ddlFAIReq.fontsize(8)
+gui.frmMain.ddlFAIReq.defaultvalue("")
+gui.frmMain.ddlFAIReq.controlgroup(0)
+gui.frmMain.chkPreShipAuth.create(checkbox)
+gui.frmMain.chkPreShipAuth.caption("PreShip Auth?")
+gui.frmMain.chkPreShipAuth.visible(True)
+gui.frmMain.chkPreShipAuth.size(2500,255)
+gui.frmMain.chkPreShipAuth.zorder(0)
+gui.frmMain.chkPreShipAuth.position(200,900)
+gui.frmMain.chkPreShipAuth.enabled(True)
+gui.frmMain.chkPreShipAuth.alignment(0)
+gui.frmMain.chkPreShipAuth.fontname("Arial")
+gui.frmMain.chkPreShipAuth.fontsize(8)
+gui.frmMain.chkPreShipAuth.defaultvalue("")
+gui.frmMain.chkPreShipAuth.controlgroup(0)
+gui.frmMain.chkQ11.create(checkbox)
+gui.frmMain.chkQ11.caption("Q11 - Site Stamp")
+gui.frmMain.chkQ11.visible(True)
+gui.frmMain.chkQ11.size(2500,255)
+gui.frmMain.chkQ11.zorder(0)
+gui.frmMain.chkQ11.position(200,1185)
+gui.frmMain.chkQ11.enabled(True)
+gui.frmMain.chkQ11.alignment(0)
+gui.frmMain.chkQ11.fontname("Arial")
+gui.frmMain.chkQ11.fontsize(8)
+gui.frmMain.chkQ11.defaultvalue("")
+gui.frmMain.chkQ11.controlgroup(0)
+gui.frmMain.chkQ12.create(checkbox)
+gui.frmMain.chkQ12.caption("Q12 - Shelf Life")
+gui.frmMain.chkQ12.visible(True)
+gui.frmMain.chkQ12.size(2500,255)
+gui.frmMain.chkQ12.zorder(0)
+gui.frmMain.chkQ12.position(200,1485)
+gui.frmMain.chkQ12.enabled(True)
+gui.frmMain.chkQ12.alignment(0)
+gui.frmMain.chkQ12.fontname("Arial")
+gui.frmMain.chkQ12.fontsize(8)
+gui.frmMain.chkQ12.defaultvalue("")
+gui.frmMain.chkQ12.controlgroup(0)
+gui.frmMain.chkQ13.create(checkbox)
+gui.frmMain.chkQ13.caption("Q13 - Special C of C")
+gui.frmMain.chkQ13.visible(True)
+gui.frmMain.chkQ13.size(2500,255)
+gui.frmMain.chkQ13.zorder(0)
+gui.frmMain.chkQ13.position(200,1785)
+gui.frmMain.chkQ13.enabled(True)
+gui.frmMain.chkQ13.alignment(0)
+gui.frmMain.chkQ13.fontname("Arial")
+gui.frmMain.chkQ13.fontsize(8)
+gui.frmMain.chkQ13.ForeColor(32768)
+gui.frmMain.chkQ13.defaultvalue("")
+gui.frmMain.chkQ13.controlgroup(0)
+gui.frmMain.chkQ14.create(checkbox)
+gui.frmMain.chkQ14.caption("Q14 - ESD Pkg")
+gui.frmMain.chkQ14.visible(True)
+gui.frmMain.chkQ14.size(2500,255)
+gui.frmMain.chkQ14.zorder(0)
+gui.frmMain.chkQ14.position(200,2085)
+gui.frmMain.chkQ14.enabled(True)
+gui.frmMain.chkQ14.alignment(0)
+gui.frmMain.chkQ14.fontname("Arial")
+gui.frmMain.chkQ14.fontsize(8)
+gui.frmMain.chkQ14.defaultvalue("")
+gui.frmMain.chkQ14.controlgroup(0)
+gui.frmMain.chkQ15.create(checkbox)
+gui.frmMain.chkQ15.caption("Q15 - DoD Rating")
+gui.frmMain.chkQ15.visible(True)
+gui.frmMain.chkQ15.size(2500,255)
+gui.frmMain.chkQ15.zorder(0)
+gui.frmMain.chkQ15.position(200,2385)
+gui.frmMain.chkQ15.enabled(True)
+gui.frmMain.chkQ15.alignment(0)
+gui.frmMain.chkQ15.fontname("Arial")
+gui.frmMain.chkQ15.fontsize(8)
+gui.frmMain.chkQ15.defaultvalue("")
+gui.frmMain.chkQ15.controlgroup(0)
+gui.frmMain.chkQ16.create(checkbox)
+gui.frmMain.chkQ16.caption("Q16 - Manf's Cert")
+gui.frmMain.chkQ16.visible(True)
+gui.frmMain.chkQ16.size(2500,255)
+gui.frmMain.chkQ16.zorder(0)
+gui.frmMain.chkQ16.position(200,2685)
+gui.frmMain.chkQ16.enabled(True)
+gui.frmMain.chkQ16.alignment(0)
+gui.frmMain.chkQ16.fontname("Arial")
+gui.frmMain.chkQ16.fontsize(8)
+gui.frmMain.chkQ16.ForeColor(32768)
+gui.frmMain.chkQ16.defaultvalue("")
+gui.frmMain.chkQ16.controlgroup(0)
+gui.frmMain.chkQ17.create(checkbox)
+gui.frmMain.chkQ17.caption("Q17 - DD250")
+gui.frmMain.chkQ17.visible(True)
+gui.frmMain.chkQ17.size(2500,255)
+gui.frmMain.chkQ17.zorder(0)
+gui.frmMain.chkQ17.position(200,2985)
+gui.frmMain.chkQ17.enabled(True)
+gui.frmMain.chkQ17.alignment(0)
+gui.frmMain.chkQ17.fontname("Arial")
+gui.frmMain.chkQ17.fontsize(8)
+gui.frmMain.chkQ17.defaultvalue("")
+gui.frmMain.chkQ17.controlgroup(0)
+gui.frmMain.chkQ18.create(checkbox)
+gui.frmMain.chkQ18.caption("Q18 - Cust Gateway")
+gui.frmMain.chkQ18.visible(True)
+gui.frmMain.chkQ18.size(2500,255)
+gui.frmMain.chkQ18.zorder(0)
+gui.frmMain.chkQ18.position(200,3285)
+gui.frmMain.chkQ18.enabled(True)
+gui.frmMain.chkQ18.alignment(0)
+gui.frmMain.chkQ18.fontname("Arial")
+gui.frmMain.chkQ18.fontsize(8)
+gui.frmMain.chkQ18.defaultvalue("")
+gui.frmMain.chkQ18.controlgroup(0)
+gui.frmMain.chkQ19.create(checkbox)
+gui.frmMain.chkQ19.caption("Q19 - Physical Test")
+gui.frmMain.chkQ19.visible(True)
+gui.frmMain.chkQ19.size(2500,255)
+gui.frmMain.chkQ19.zorder(0)
+gui.frmMain.chkQ19.position(200,3585)
+gui.frmMain.chkQ19.enabled(True)
+gui.frmMain.chkQ19.alignment(0)
+gui.frmMain.chkQ19.fontname("Arial")
+gui.frmMain.chkQ19.fontsize(8)
+gui.frmMain.chkQ19.ForeColor(32768)
+gui.frmMain.chkQ19.defaultvalue("")
+gui.frmMain.chkQ19.controlgroup(0)
+gui.frmMain.chkQ20.create(checkbox)
+gui.frmMain.chkQ20.caption("Q20 - Chemical Test")
+gui.frmMain.chkQ20.visible(True)
+gui.frmMain.chkQ20.size(2500,255)
+gui.frmMain.chkQ20.zorder(0)
+gui.frmMain.chkQ20.position(200,3885)
+gui.frmMain.chkQ20.enabled(True)
+gui.frmMain.chkQ20.alignment(0)
+gui.frmMain.chkQ20.fontname("Arial")
+gui.frmMain.chkQ20.fontsize(8)
+gui.frmMain.chkQ20.ForeColor(32768)
+gui.frmMain.chkQ20.defaultvalue("")
+gui.frmMain.chkQ20.controlgroup(0)
+gui.frmMain.chkQ21.create(checkbox)
+gui.frmMain.chkQ21.caption("Q21 - Time Temp Lb")
+gui.frmMain.chkQ21.visible(True)
+gui.frmMain.chkQ21.size(2500,255)
+gui.frmMain.chkQ21.zorder(0)
+gui.frmMain.chkQ21.position(4490,200)
+gui.frmMain.chkQ21.enabled(True)
+gui.frmMain.chkQ21.alignment(0)
+gui.frmMain.chkQ21.fontname("Arial")
+gui.frmMain.chkQ21.fontsize(8)
+gui.frmMain.chkQ21.defaultvalue("")
+gui.frmMain.chkQ21.controlgroup(0)
+gui.frmMain.chkQ22.create(checkbox)
+gui.frmMain.chkQ22.caption("Q22 - MSDS")
+gui.frmMain.chkQ22.visible(True)
+gui.frmMain.chkQ22.size(2500,255)
+gui.frmMain.chkQ22.zorder(0)
+gui.frmMain.chkQ22.position(4490,500)
+gui.frmMain.chkQ22.enabled(True)
+gui.frmMain.chkQ22.alignment(0)
+gui.frmMain.chkQ22.fontname("Arial")
+gui.frmMain.chkQ22.fontsize(8)
+gui.frmMain.chkQ22.defaultvalue("")
+gui.frmMain.chkQ22.controlgroup(0)
+gui.frmMain.chkQ23.create(checkbox)
+gui.frmMain.chkQ23.caption("Q23 - Src Insp Buyer")
+gui.frmMain.chkQ23.visible(True)
+gui.frmMain.chkQ23.size(2500,255)
+gui.frmMain.chkQ23.zorder(0)
+gui.frmMain.chkQ23.position(4490,800)
+gui.frmMain.chkQ23.enabled(True)
+gui.frmMain.chkQ23.alignment(0)
+gui.frmMain.chkQ23.fontname("Arial")
+gui.frmMain.chkQ23.fontsize(8)
+gui.frmMain.chkQ23.ForeColor(32768)
+gui.frmMain.chkQ23.defaultvalue("")
+gui.frmMain.chkQ23.controlgroup(0)
+gui.frmMain.chkQ24.create(checkbox)
+gui.frmMain.chkQ24.caption("Q24 - Src Insp Govt")
+gui.frmMain.chkQ24.visible(True)
+gui.frmMain.chkQ24.size(2500,255)
+gui.frmMain.chkQ24.zorder(0)
+gui.frmMain.chkQ24.position(4490,1100)
+gui.frmMain.chkQ24.enabled(True)
+gui.frmMain.chkQ24.alignment(0)
+gui.frmMain.chkQ24.fontname("Arial")
+gui.frmMain.chkQ24.fontsize(8)
+gui.frmMain.chkQ24.ForeColor(32768)
+gui.frmMain.chkQ24.defaultvalue("")
+gui.frmMain.chkQ24.controlgroup(0)
+gui.frmMain.chkQ25.create(checkbox)
+gui.frmMain.chkQ25.caption("Q25 - Cert of Origin")
+gui.frmMain.chkQ25.visible(True)
+gui.frmMain.chkQ25.size(2500,255)
+gui.frmMain.chkQ25.zorder(0)
+gui.frmMain.chkQ25.position(4490,1400)
+gui.frmMain.chkQ25.enabled(True)
+gui.frmMain.chkQ25.alignment(0)
+gui.frmMain.chkQ25.fontname("Arial")
+gui.frmMain.chkQ25.fontsize(8)
+gui.frmMain.chkQ25.defaultvalue("")
+gui.frmMain.chkQ25.controlgroup(0)
+gui.frmMain.chkQ26.create(checkbox)
+gui.frmMain.chkQ26.caption("Q26 - NAFTA Cert")
+gui.frmMain.chkQ26.visible(True)
+gui.frmMain.chkQ26.size(2500,255)
+gui.frmMain.chkQ26.zorder(0)
+gui.frmMain.chkQ26.position(4490,1700)
+gui.frmMain.chkQ26.enabled(True)
+gui.frmMain.chkQ26.alignment(0)
+gui.frmMain.chkQ26.fontname("Arial")
+gui.frmMain.chkQ26.fontsize(8)
+gui.frmMain.chkQ26.defaultvalue("")
+gui.frmMain.chkQ26.controlgroup(0)
+gui.frmMain.chkQ27.create(checkbox)
+gui.frmMain.chkQ27.caption("Q27 - SPC Data")
+gui.frmMain.chkQ27.visible(True)
+gui.frmMain.chkQ27.size(2500,255)
+gui.frmMain.chkQ27.zorder(0)
+gui.frmMain.chkQ27.position(4490,2000)
+gui.frmMain.chkQ27.enabled(True)
+gui.frmMain.chkQ27.alignment(0)
+gui.frmMain.chkQ27.fontname("Arial")
+gui.frmMain.chkQ27.fontsize(8)
+gui.frmMain.chkQ27.defaultvalue("")
+gui.frmMain.chkQ27.controlgroup(0)
+gui.frmMain.chkQ28.create(checkbox)
+gui.frmMain.chkQ28.caption("Q28 - Cust Supp Docs")
+gui.frmMain.chkQ28.visible(True)
+gui.frmMain.chkQ28.size(2500,255)
+gui.frmMain.chkQ28.zorder(0)
+gui.frmMain.chkQ28.position(4490,2300)
+gui.frmMain.chkQ28.enabled(True)
+gui.frmMain.chkQ28.alignment(0)
+gui.frmMain.chkQ28.fontname("Arial")
+gui.frmMain.chkQ28.fontsize(8)
+gui.frmMain.chkQ28.defaultvalue("")
+gui.frmMain.chkQ28.controlgroup(0)
+gui.frmMain.chk30.create(checkbox)
+gui.frmMain.chk30.caption("Q30 - Src Surveil")
+gui.frmMain.chk30.visible(True)
+gui.frmMain.chk30.size(2500,255)
+gui.frmMain.chk30.zorder(0)
+gui.frmMain.chk30.position(4490,3200)
+gui.frmMain.chk30.enabled(True)
+gui.frmMain.chk30.alignment(0)
+gui.frmMain.chk30.fontname("Arial")
+gui.frmMain.chk30.fontsize(8)
+gui.frmMain.chk30.defaultvalue("")
+gui.frmMain.chk30.controlgroup(0)
+gui.frmMain.lbl2.create(label,"Material Aging",True,1935,255,1,4490,2600,True,0,Arial,8,-2147483633,0)
+gui.frmMain.lbl2.defaultvalue("")
+gui.frmMain.lbl2.controlgroup(0)
+gui.frmMain.txtMatAging.create(textbox,"",True,2500,300,0,4490,2800,True,0,Arial,8,-2147483643,1)
+gui.frmMain.txtMatAging.defaultvalue("")
+gui.frmMain.txtMatAging.controlgroup(0)
+gui.frmMain.chk31.create(checkbox)
+gui.frmMain.chk31.caption("Q31 - Sprc Process Cert")
+gui.frmMain.chk31.visible(True)
+gui.frmMain.chk31.size(2500,255)
+gui.frmMain.chk31.zorder(0)
+gui.frmMain.chk31.position(4490,3500)
+gui.frmMain.chk31.enabled(True)
+gui.frmMain.chk31.alignment(0)
+gui.frmMain.chk31.fontname("Arial")
+gui.frmMain.chk31.fontsize(8)
+gui.frmMain.chk31.defaultvalue("")
+gui.frmMain.chk31.controlgroup(0)
+gui.frmMain.cmdSave.create(button)
+gui.frmMain.cmdSave.caption("Save")
+gui.frmMain.cmdSave.visible(True)
+gui.frmMain.cmdSave.size(855,375)
+gui.frmMain.cmdSave.zorder(0)
+gui.frmMain.cmdSave.position(200,4460)
+gui.frmMain.cmdSave.enabled(True)
+gui.frmMain.cmdSave.fontname("Arial")
+gui.frmMain.cmdSave.fontsize(8)
+gui.frmMain.cmdSave.event(click,cmdsave_click)
+gui.frmMain.cmdSave.defaultvalue("")
+gui.frmMain.cmdSave.controlgroup(0)
+gui.frmMain.ddlQ13SOLine.create(dropdownlist)
+gui.frmMain.ddlQ13SOLine.visible(True)
+gui.frmMain.ddlQ13SOLine.size(750,330)
+gui.frmMain.ddlQ13SOLine.zorder(0)
+gui.frmMain.ddlQ13SOLine.position(2105,1740)
+gui.frmMain.ddlQ13SOLine.enabled(True)
+gui.frmMain.ddlQ13SOLine.fontname("Arial")
+gui.frmMain.ddlQ13SOLine.fontsize(8)
+gui.frmMain.ddlQ13SOLine.defaultvalue("")
+gui.frmMain.ddlQ13SOLine.controlgroup(0)
+gui.frmMain.ddlQ16SOLine.create(dropdownlist)
+gui.frmMain.ddlQ16SOLine.visible(True)
+gui.frmMain.ddlQ16SOLine.size(750,330)
+gui.frmMain.ddlQ16SOLine.zorder(0)
+gui.frmMain.ddlQ16SOLine.position(2105,2685)
+gui.frmMain.ddlQ16SOLine.enabled(True)
+gui.frmMain.ddlQ16SOLine.fontname("Arial")
+gui.frmMain.ddlQ16SOLine.fontsize(8)
+gui.frmMain.ddlQ16SOLine.defaultvalue("")
+gui.frmMain.ddlQ16SOLine.controlgroup(0)
+gui.frmMain.ddlQ19SOLine.create(dropdownlist)
+gui.frmMain.ddlQ19SOLine.visible(True)
+gui.frmMain.ddlQ19SOLine.size(750,330)
+gui.frmMain.ddlQ19SOLine.zorder(0)
+gui.frmMain.ddlQ19SOLine.position(2100,3530)
+gui.frmMain.ddlQ19SOLine.enabled(True)
+gui.frmMain.ddlQ19SOLine.fontname("Arial")
+gui.frmMain.ddlQ19SOLine.fontsize(8)
+gui.frmMain.ddlQ19SOLine.defaultvalue("")
+gui.frmMain.ddlQ19SOLine.controlgroup(0)
+gui.frmMain.ddlQ20SOLine.create(dropdownlist)
+gui.frmMain.ddlQ20SOLine.visible(True)
+gui.frmMain.ddlQ20SOLine.size(750,330)
+gui.frmMain.ddlQ20SOLine.zorder(0)
+gui.frmMain.ddlQ20SOLine.position(2100,3860)
+gui.frmMain.ddlQ20SOLine.enabled(True)
+gui.frmMain.ddlQ20SOLine.fontname("Arial")
+gui.frmMain.ddlQ20SOLine.fontsize(8)
+gui.frmMain.ddlQ20SOLine.defaultvalue("")
+gui.frmMain.ddlQ20SOLine.controlgroup(0)
+gui.frmMain.ddlFAIReqSOLine.create(dropdownlist)
+gui.frmMain.ddlFAIReqSOLine.visible(True)
+gui.frmMain.ddlFAIReqSOLine.size(750,330)
+gui.frmMain.ddlFAIReqSOLine.zorder(0)
+gui.frmMain.ddlFAIReqSOLine.position(3510,405)
+gui.frmMain.ddlFAIReqSOLine.enabled(True)
+gui.frmMain.ddlFAIReqSOLine.fontname("Arial")
+gui.frmMain.ddlFAIReqSOLine.fontsize(8)
+gui.frmMain.ddlFAIReqSOLine.defaultvalue("")
+gui.frmMain.ddlFAIReqSOLine.controlgroup(0)
+gui.frmMain.ddlQ23SOLine.create(dropdownlist)
+gui.frmMain.ddlQ23SOLine.visible(True)
+gui.frmMain.ddlQ23SOLine.size(750,330)
+gui.frmMain.ddlQ23SOLine.zorder(0)
+gui.frmMain.ddlQ23SOLine.position(6400,730)
+gui.frmMain.ddlQ23SOLine.enabled(True)
+gui.frmMain.ddlQ23SOLine.fontname("Arial")
+gui.frmMain.ddlQ23SOLine.fontsize(8)
+gui.frmMain.ddlQ23SOLine.defaultvalue("")
+gui.frmMain.ddlQ23SOLine.controlgroup(0)
+gui.frmMain.ddlQ24SOLine.create(dropdownlist)
+gui.frmMain.ddlQ24SOLine.visible(True)
+gui.frmMain.ddlQ24SOLine.size(750,330)
+gui.frmMain.ddlQ24SOLine.zorder(0)
+gui.frmMain.ddlQ24SOLine.position(6405,1070)
+gui.frmMain.ddlQ24SOLine.enabled(True)
+gui.frmMain.ddlQ24SOLine.fontname("Arial")
+gui.frmMain.ddlQ24SOLine.fontsize(8)
+gui.frmMain.ddlQ24SOLine.defaultvalue("")
+gui.frmMain.ddlQ24SOLine.controlgroup(0)
+gui.frmMain.txtDoDRating.create(textbox,"",True,1215,300,0,2090,2345,True,0,Arial,8,-2147483643,1)
+gui.frmMain.txtDoDRating.defaultvalue("")
+gui.frmMain.txtDoDRating.controlgroup(0)
+
+
+Program.Sub.ScreenSU.End
+
+Program.Sub.Preflight.Start
+
+Variable.UDT.uQRLine.Define("sPartNumber",String)
+Variable.UDT.uQRLine.Define("sPartDesc",String)
+Variable.UDT.uQRLine.Define("sCurrency",String)
+Variable.uGlobal.uQRLine.Declare("uQRLine")
+
+Program.Sub.Preflight.End
+
+Program.Sub.Main.Start
+F.Intrinsic.Control.SetErrorHandler("Main_Err")
+F.Intrinsic.Control.ClearErrors
+
+
+
+V.Local.sError.Declare(String)
+
+'Attach to Hooks: 10210,10120 (INV), 12410,12010 (SALES ORDER) and 10670,10260 (QUOTE)
+
+F.odbc.Connection!connect.OpenConnection(V.Ambient.PDSN,V.Ambient.PUser,V.Ambient.PPass)
+
+F.Intrinsic.Control.SelectCase(V.Caller.Hook)
+	'Pop Hook for Inventory.  Sets the Script 1 button text
+	F.Intrinsic.Control.Case(10120)
+		V.Passed.000068.Set("Quality Req")
+	'Pop Hook for Order Entry.  Sets the Script 1 button text
+	F.Intrinsic.Control.Case(12010)
+		V.Passed.000162.Set("Quality Req")
+	'Pop Hook for Quick Quote.  Sets the Script 1 button
+	F.Intrinsic.Control.Case(10260)
+		V.Passed.000201.Set("Quality Req")
+	'Pop Hook for Order Entry Header. Sets Script 1 button
+	F.Intrinsic.Control.Case(11560)
+		V.Passed.000201.Set("QA Lines")
+	'Pop Hook for Purchase Order Lines.  Sets the Script 1 button
+	F.Intrinsic.Control.Case(17050)
+		V.Passed.000097.Set("Quality Req")
+	'Script 1 Hook Inventory Master.  Calls the Quality screen for an inventory part.
+	F.Intrinsic.Control.Case(10210)
+		F.Intrinsic.Control.CallSub(Sub_inventory)
+	'Script 1 Hook Order Header.  Calls the Quality screen for an Order
+	F.Intrinsic.Control.Case(12410)
+'		F.Intrinsic.Control.CallSub(Sub_sales)
+		F.Intrinsic.Control.CallSub(Sub_load_values)
+		F.Intrinsic.Control.CallSub(Sub_sales_load)
+	'Script 1 Hook Quick Quote.  Calles the Quality screen for a Quote
+	F.Intrinsic.Control.Case(10670)
+		F.Intrinsic.Control.CallSub(Sub_quote)
+	'Post Delete Quote Line Screen.
+	F.Intrinsic.Control.Case(10542)
+		F.Intrinsic.Control.CallSub(Sub_quote_delete)
+	'Post Delete Quote Header Screen
+	F.Intrinsic.Control.Case(10932)
+		F.Intrinsic.Control.CallSub(Sub_quote_delete)
+	'Post Delete Order Entry Lines
+	F.Intrinsic.Control.Case(12242)
+		F.Intrinsic.Control.CallSub(Sub_sales_delete)
+	'Post Delete Order Header Screen
+	F.Intrinsic.Control.Case(11882)
+		F.Intrinsic.Control.CallSub(Sub_sales_delete)
+	'Delete from Inventory
+	F.Intrinsic.Control.Case(10185)
+		F.Intrinsic.Control.If(V.Caller.Switches,=,"D")
+			F.Intrinsic.Control.CallSub(Sub_inv_delete)
+		F.Intrinsic.Control.EndIf
+	'Script 1 Hook for Purchase Order Line.  Calls the Qualtiy Screen for PO.
+	F.Intrinsic.Control.Case(17160)
+		F.Intrinsic.Control.CallSub(Sub_po)
+	'Delete for Purchase Order Lines Screen
+	F.Intrinsic.Control.Case(17070)
+		F.Intrinsic.Control.CallSub(Sub_po_delete)
+	'Delete for Purchase Order Header screen
+	F.Intrinsic.Control.Case(16884)
+		F.Intrinsic.Control.CallSub(Sub_po_delete)
+	'Script 1 hook for the Order Entry Header screen
+	F.Intrinsic.Control.Case(11910)
+		F.Intrinsic.Control.CallSub(Sales_upload)
+
+
+
+F.Intrinsic.Control.EndSelect
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("Main_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_3975_QARequirements.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(Frmmain_unload)
+
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.Main.End
+
+program.sub.frmmain_unload.start
+F.Intrinsic.Control.SetErrorHandler("frmmain_unload_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+
+F.ODBC.Connection!connect.Close
+F.Intrinsic.Control.End
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("frmmain_unload_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_3975_QARequirements.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.End
+Function.Intrinsic.Control.EndIf
+
+
+program.sub.frmmain_unload.end
+
+program.sub.cmdsave_click.start
+F.Intrinsic.Control.SetErrorHandler("cmdsave_click_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+
+'IF ddlFAIReq selection is "Q-10 A..." do not require SO Line selection
+'ELSE require SO Line selection
+
+'FOR EACH Chargeable Item...
+'IF Checkbox checked, check for SO Line selection, alert if no selection asking whether to save and continue or stop and select
+
+'Based on which hook determines which save routine to call
+F.Intrinsic.Control.SelectCase(V.Caller.Hook)
+
+	F.Intrinsic.Control.Case(10210)
+		F.Intrinsic.Control.CallSub(Sub_inv_save)
+
+	F.Intrinsic.Control.Case(12410)
+		F.Intrinsic.Control.CallSub(Sub_sales_save)
+
+	F.Intrinsic.Control.Case(10670)
+		F.Intrinsic.Control.CallSub(Sub_quote_save)
+
+	F.Intrinsic.Control.Case(17160)
+		F.Intrinsic.Control.CallSub(Sub_po_save)
+
+F.Intrinsic.Control.EndSelect
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("cmdsave_click_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_3975_QARequirements.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(Frmmain_unload)
+Function.Intrinsic.Control.EndIf
+
+
+program.sub.cmdsave_click.end
+
+Program.Sub.sub_inventory.Start
+F.Intrinsic.Control.SetErrorHandler("sub_inventory_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+Gui.frmMain..Visible(True)
+
+'Load values for dropdown boxes
+
+F.Intrinsic.Control.CallSub(Sub_load_values)
+F.Intrinsic.Control.CallSub(Sub_inv_load)
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("sub_inventory_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_3975_QARequirements.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(Frmmain_unload)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.sub_inventory.End
+
+Program.Sub.sub_sales.Start
+F.Intrinsic.Control.SetErrorHandler("sub_sales_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+V.Local.sPart.Declare(String)
+V.Local.sRev.Declare(String)
+V.Local.sLoc.Declare(String)
+V.Local.sSOnumb.Declare(String)
+V.Local.sSOline.Declare(String)
+V.Local.sSQL.Declare(String)
+
+V.Local.sSOnumb.Set(V.Passed.000060)
+V.Local.sSOline.Set(V.Passed.000051)
+V.Local.sPart.Set(V.Passed.000052.Trim)
+V.Local.sRev.Set(V.Passed.000053.Trim)
+V.Local.sLoc.Set(V.Passed.000054.Trim)
+
+F.Intrinsic.String.Concat("SELECT * FROM GCG_3975_SALES_QR where SO_NUMBER='",V.Local.sSOnumb,"' AND SO_LINE = '",V.Local.sSOline,"' AND PART = '",V.Local.sPart,"' and Rev = '",V.Local.sRev,"' and Loc = '",V.Local.sLoc,"' ",V.Local.sSQL)
+F.ODBC.Connection!connect.OpenRecordsetRW("rstcom",V.Local.sSQL)
+
+F.Intrinsic.Control.If(V.ODBC.Connect!rstcom.EOF,=,True)
+	
+
+	F.ODBC.connect!rstcom.AddNew
+	F.Intrinsic.String.Concat("INSERT INTO GCG_3975_SALES_QR (PART,Rev ,LOC,FAI_REQ,FAI_TYPE,PRE_SHIP,Q11,Q12,Q13,Q14,Q15,Q16,Q17,Q18,Q19,Q20,Q21,Q22,Q23,Q24,Q25,Q26,Q27,Q28,MAT_AGING,Q30,Q31,Q13_YESORNO,Q16_YESORNO,Q19_YESORNO,Q20_YESORNO,Q23_YESORNO,Q24_YESORNO,Q15_DODRATING) SELECT PART, Rev ,LOC,FAI_REQ,FAI_TYPE,PRE_SHIP,Q11,Q12,Q13,Q14,Q15,Q16,Q17,Q18,Q19,Q20,Q21,Q22,Q23,Q24,Q25,Q26,Q27,Q28,MAT_AGING,Q30,Q31,Q13_YESORNO,Q16_YESORNO,Q19_YESORNO,Q20_YESORNO,Q23_YESORNO,Q24_YESORNO,Q15_DODRATING FROM GCG_3975_INV_QR WHERE PART = '",V.Local.sPart,"' and Rev = '",V.Local.sRev,"' and Loc = '",V.Local.sLoc,"' ",V.Local.sSQL)
+	F.ODBC.Connection!connect.Execute(V.Local.sSQL)
+
+	F.Intrinsic.String.Concat("UPDATE GCG_3975_SALES_QR SET SO_NUMBER = '",V.Local.sSOnumb,"' WHERE PART = '",V.Local.sPart,"' and Rev = '",V.Local.sRev,"' and Loc = '",V.Local.sLoc,"' AND SO_NUMBER IS NULL",V.Local.sSQL)
+	F.ODBC.connection!connect.Execute(V.Local.sSQL)
+
+	F.Intrinsic.String.Concat("UPDATE GCG_3975_SALES_QR SET SO_LINE = '",V.Local.sSOline,"' WHERE PART = '",V.Local.sPart,"' and Rev = '",V.Local.sRev,"' and Loc='",V.Local.sLoc,"'AND SO_NUMBER='",V.Local.sSOnumb,"'AND SO_LINE IS NULL",V.Local.sSQL)
+	F.ODBC.connection!connect.Execute(V.Local.sSQL)
+
+F.Intrinsic.Control.EndIf
+
+'F.ODBC.connect!rstcom.Close
+
+F.Intrinsic.Control.CallSub(Sub_load_values)
+F.Intrinsic.Control.CallSub(Sub_sales_load)
+
+Gui.frmMain..Visible(True)
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("sub_sales_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_3975_QARequirements.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(Frmmain_unload)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.sub_sales.End
+
+Program.Sub.sub_quote.Start
+F.Intrinsic.Control.SetErrorHandler("sub_quote_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+V.Local.sPart.Declare(String)
+V.Local.sRev.Declare(String)
+V.Local.sLoc.Declare(String)
+V.Local.sQuotenumb.Declare(String)
+V.Local.sQuoteline.Declare(String)
+V.Local.sSQL.Declare(String)
+
+V.Local.sQuotenumb.Set(V.Passed.000060)
+V.Local.sQuoteline.Set(V.Passed.000051)
+V.Local.sPart.Set(V.Passed.000052.Trim)
+V.Local.sRev.Set(V.Passed.000053.Trim)
+V.Local.sLoc.Set(V.Passed.000054.Trim)
+
+F.Intrinsic.String.Concat("SELECT * FROM GCG_3975_QUOTE_QR where QUOTE_NUM='",V.Local.sQuotenumb,"' AND QUOTE_LINE = '",V.Local.sQuoteline,"' AND PART = '",V.Local.sPart,"' and Rev = '",V.Local.sRev,"' and Loc = '",V.Local.sLoc,"'",V.Local.sSQL)
+F.ODBC.Connection!connect.OpenRecordsetRW("rstcom",V.Local.sSQL)
+
+F.Intrinsic.Control.If(V.ODBC.Connect!rstcom.EOF,=,True)
+
+	F.ODBC.connect!rstcom.AddNew
+	F.Intrinsic.String.Concat("INSERT INTO GCG_3975_QUOTE_QR (PART, Rev,LOC,FAI_REQ,FAI_TYPE,PRE_SHIP,Q11,Q12,Q13,Q14,Q15,Q16,Q17,Q18,Q19,Q20,Q21,Q22,Q23,Q24,Q25,Q26,Q27,Q28,MAT_AGING,Q30,Q31,Q13_YESORNO,Q16_YESORNO,Q19_YESORNO,Q20_YESORNO,Q23_YESORNO,Q24_YESORNO,Q15_DODRATING) SELECT PART,Rev,LOC,FAI_REQ,FAI_TYPE,PRE_SHIP,Q11,Q12,Q13,Q14,Q15,Q16,Q17,Q18,Q19,Q20,Q21,Q22,Q23,Q24,Q25,Q26,Q27,Q28,MAT_AGING,Q30,Q31,Q13_YESORNO,Q16_YESORNO,Q19_YESORNO,Q20_YESORNO,Q23_YESORNO,Q24_YESORNO,Q15_DODRATING FROM GCG_3975_INV_QR WHERE PART = '",V.Local.sPart,"' and Rev = '",V.Local.sRev,"' and Loc = '",V.Local.sLoc,"'",V.Local.sSQL)
+	F.ODBC.Connection!connect.Execute(V.Local.sSQL)
+
+	F.Intrinsic.String.Concat("UPDATE GCG_3975_QUOTE_QR SET QUOTE_NUM = '",V.Local.sQuotenumb,"' WHERE PART = '",V.Local.sPart,"' and Rev = '",V.Local.sRev,"' and Loc = '",V.local.sLoc,"'  AND QUOTE_NUM IS NULL",V.Local.sSQL)
+	F.ODBC.connection!connect.Execute(V.Local.sSQL)
+
+	F.Intrinsic.String.Concat("UPDATE GCG_3975_QUOTE_QR SET QUOTE_LINE = '",V.Local.sQuoteline,"' WHERE PART = '",V.Local.sPart,"' and Rev = '",V.Local.sRev,"' and Loc = '",V.Local.sLoc,"'  AND QUOTE_NUM = '",V.Local.sQuotenumb,"' AND QUOTE_LINE IS NULL",V.Local.sSQL)
+	F.ODBC.connection!connect.Execute(V.Local.sSQL)
+F.Intrinsic.Control.EndIf
+'F.ODBC.connect!rstcom.Close
+
+
+F.Intrinsic.Control.CallSub(Sub_load_values)
+
+F.Intrinsic.Control.CallSub(Sub_quote_load)
+
+Gui.frmMain..Visible(True)
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("sub_quote_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_3975_QARequirements.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(Frmmain_unload)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.sub_quote.End
+
+Program.Sub.sub_load_values.Start
+F.Intrinsic.Control.SetErrorHandler("sub_load_values_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+
+'Load values for dropdown boxes
+
+Gui.frmMain.ddlFAIReq.AddItem("Q-10 A     FAI-USR Dimensional - File Only")
+Gui.frmMain.ddlFAIReq.AddItem("Q-10 B     FAI-USR Dimensional - Deliverable")
+Gui.frmMain.ddlFAIReq.AddItem("Q-10 C     FAI-AS9102 - Electronic Submittal")
+Gui.frmMain.ddlFAIReq.AddItem("Q-10 D     FAI-AS9102 - Deliverable")
+Gui.frmMain.ddlFAIReq.AddItem("Q-10 E     PPAP Level I")
+Gui.frmMain.ddlFAIReq.AddItem("Q-10 E     PPAP Level II")
+Gui.frmMain.ddlFAIReq.AddItem("Q-10 E     PPAP Level III")
+Gui.frmMain.ddlFAIReq.AddItem("Q-10 E     PPAP Level IV")
+Gui.frmMain.ddlFAIReq.AddItem("Not Required")
+
+
+Gui.frmMain.ddlFAIReqSOLine.AddItem("Yes")
+Gui.frmMain.ddlFAIReqSOLine.AddItem("No")
+Gui.frmMain.ddlFAIReqSOLine.AddItem("   ")
+
+
+Gui.frmMain.ddlQ13SOLine.AddItem("Yes")
+Gui.frmMain.ddlQ13SOLine.AddItem("No")
+Gui.frmMain.ddlQ13SOLine.AddItem("   ")
+
+
+Gui.frmMain.ddlQ16SOLine.AddItem("Yes")
+Gui.frmMain.ddlQ16SOLine.AddItem("No")
+Gui.frmMain.ddlQ16SOLine.AddItem("   ")
+
+
+Gui.frmMain.ddlQ19SOLine.AddItem("Yes")
+Gui.frmMain.ddlQ19SOLine.AddItem("No")
+Gui.frmMain.ddlQ19SOLine.AddItem("   ")
+
+
+Gui.frmMain.ddlQ20SOLine.AddItem("Yes")
+Gui.frmMain.ddlQ20SOLine.AddItem("No")
+Gui.frmMain.ddlQ20SOLine.AddItem("   ")
+
+
+Gui.frmMain.ddlQ23SOLine.AddItem("Yes")
+Gui.frmMain.ddlQ23SOLine.AddItem("No")
+Gui.frmMain.ddlQ23SOLine.AddItem("   ")
+
+
+Gui.frmMain.ddlQ24SOLine.AddItem("Yes")
+Gui.frmMain.ddlQ24SOLine.AddItem("No")
+Gui.frmMain.ddlQ24SOLine.AddItem("   ")
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("sub_load_values_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_3975_QARequirements.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(Frmmain_unload)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.sub_load_values.End
+
+Program.Sub.sub_inv_load.Start
+F.Intrinsic.Control.SetErrorHandler("sub_inv_load_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+V.Local.sPart.Declare(String)
+V.Local.sRev.Declare(String)
+V.Local.sSQL.Declare(String)
+
+V.Local.sPart.Set(V.Passed.000007.Trim)
+V.Local.sRev.Set(V.Passed.000008.Trim)
+F.Intrinsic.Control.CallSub(Sub_load_nos)
+
+F.Intrinsic.String.Concat("SELECT * FROM GCG_3975_INV_QR where PART='",V.Local.sPart,"' and Rev = '",V.Local.sRev,"'",V.Local.sSQL)
+F.ODBC.Connection!connect.OpenRecordsetRO("rstCom",V.Local.sSQL)
+F.Intrinsic.Control.If(V.ODBC.Connect!rstCom.EOF,=,False)
+	Gui.frmMain.ddlFAIReqSOLine.Text(V.ODBC.connect!rstCom.FieldValtrim!FAI_REQ)
+	Gui.frmMain.ddlFAIReq.Text(V.ODBC.connect!rstCom.FieldValtrim!FAI_TYPE)
+	Gui.frmMain.chkPreShipAuth.Value(V.ODBC.connect!rstCom.FieldValtrim!PRE_SHIP)
+	Gui.frmMain.chkQ11.Value(V.ODBC.connect!rstcom.FieldVal!Q11)
+	Gui.frmMain.chkQ12.Value(V.ODBC.connect!rstCom.FieldVal!Q12)
+	Gui.frmMain.chkQ13.Value(V.ODBC.connect!rstCom.FieldVal!Q13)
+	Gui.frmMain.chkQ14.Value(V.ODBC.connect!rstCom.FieldVal!Q14)
+	Gui.frmMain.chkQ15.Value(V.ODBC.connect!rstCom.FieldVal!Q15)
+	Gui.frmMain.chkQ16.Value(V.ODBC.connect!rstCom.FieldVal!Q16)
+	Gui.frmMain.chkQ17.Value(V.ODBC.connect!rstCom.FieldVal!Q17)
+	Gui.frmMain.chkQ18.Value(V.ODBC.connect!rstCom.FieldVal!Q18)
+	Gui.frmMain.chkQ19.Value(V.ODBC.connect!rstCom.FieldVal!Q19)
+	Gui.frmMain.chkQ20.Value(V.ODBC.connect!rstCom.FieldVal!Q20)
+	Gui.frmMain.chkQ21.Value(V.ODBC.connect!rstCom.FieldVal!Q21)
+	Gui.frmMain.chkQ22.Value(V.ODBC.connect!rstCom.FieldVal!Q22)
+	Gui.frmMain.chkQ23.Value(V.ODBC.connect!rstCom.FieldVal!Q23)
+	Gui.frmMain.chkQ24.Value(V.ODBC.connect!rstCom.FieldVal!Q24)
+	Gui.frmMain.chkQ25.Value(V.ODBC.connect!rstCom.FieldVal!Q25)
+	Gui.frmMain.chkQ26.Value(V.ODBC.connect!rstCom.FieldVal!Q26)
+	Gui.frmMain.chkQ27.Value(V.ODBC.connect!rstCom.FieldVal!Q27)
+	Gui.frmMain.chkQ28.Value(V.ODBC.connect!rstCom.FieldVal!Q28)
+	Gui.frmMain.txtMatAging.Text(V.ODBC.connect!rstCom.FieldVal!MAT_AGING)
+	Gui.frmMain.chk30.Value(V.ODBC.connect!rstCom.FieldVal!Q30)
+	Gui.frmMain.chk31.Value(V.ODBC.connect!rstCom.FieldVal!Q31)
+	Gui.frmMain.ddlQ13SOLine.Text(V.ODBC.connect!rstcom.FieldValtrim!Q13_YESORNO)
+	Gui.frmMain.ddlQ16SOLine.Text(V.ODBC.connect!rstcom.FieldValtrim!Q16_YESORNO)
+	Gui.frmMain.ddlQ19SOLine.Text(V.ODBC.connect!rstcom.FieldValtrim!Q19_YESORNO)
+	Gui.frmMain.ddlQ20SOLine.Text(V.ODBC.connect!rstcom.FieldValtrim!Q20_YESORNO)
+	Gui.frmMain.ddlQ23SOLine.Text(V.ODBC.connect!rstcom.FieldValtrim!Q23_YESORNO)
+	Gui.frmMain.ddlQ24SOLine.Text(V.ODBC.connect!rstcom.FieldValtrim!Q24_YESORNO)
+	Gui.frmMain.txtDODRating.Text(V.ODBC.connect!rstcom.FieldValtrim!Q15_DODRATING)
+F.Intrinsic.Control.Else
+	F.Intrinsic.Control.CallSub(Sub_load_nos)
+F.Intrinsic.Control.EndIf
+
+F.ODBC.connect!rstCom.Close
+
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("sub_inv_load_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_3975_QARequirements.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(Frmmain_unload)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.sub_inv_load.End
+
+Program.Sub.sub_quote_load.Start
+F.Intrinsic.Control.SetErrorHandler("sub_quote_load_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+V.Local.sPart.Declare(String)
+V.Local.sRev.Declare(String)
+V.Local.sLoc.Declare(String)
+V.Local.sQuotenumb.Declare(String)
+V.Local.sQuoteline.Declare(String)
+V.Local.sSQL.Declare(String)
+V.Local.sGlobalccc.Declare(String)
+
+
+V.Local.sQuotenumb.Set(V.Passed.000060)
+V.Local.sQuoteline.Set(V.Passed.000051)
+V.Local.sPart.Set(V.Passed.000052.Trim)
+V.Local.sRev.Set(V.Passed.000053.Trim)
+V.Local.sLoc.Set(V.Passed.000054.Trim)
+F.Intrinsic.Control.CallSub(Sub_load_nos)
+
+F.Intrinsic.String.Concat("SELECT * FROM GCG_3975_QUOTE_QR where QUOTE_NUM='",V.Local.sQuotenumb,"' AND QUOTE_LINE = '",V.Local.sQuoteline,"' AND PART = '",V.Local.sPart,"' and Rev = '",V.Local.sRev,"' and Loc = '",V.Local.sLoc,"'",V.Local.sSQL)
+F.ODBC.Connection!connect.OpenRecordsetRW("rst",V.Local.sSQL)
+F.Intrinsic.Control.If(V.ODBC.Connect!rst.EOF,=,False)
+
+	Gui.frmMain.ddlFAIReqSOLine.Text(V.ODBC.connect!rst.FieldValtrim!FAI_REQ)
+	Gui.frmMain.ddlFAIReq.Text(V.ODBC.connect!rst.FieldValtrim!FAI_TYPE)
+	Gui.frmMain.chkPreShipAuth.Value(V.ODBC.connect!rst.FieldValtrim!PRE_SHIP)
+	Gui.frmMain.chkQ11.Value(V.ODBC.connect!rst.FieldVal!Q11)
+	Gui.frmMain.chkQ12.Value(V.ODBC.connect!rst.FieldVal!Q12)
+	Gui.frmMain.chkQ13.Value(V.ODBC.connect!rst.FieldVal!Q13)
+	Gui.frmMain.chkQ14.Value(V.ODBC.connect!rst.FieldVal!Q14)
+	Gui.frmMain.chkQ15.Value(V.ODBC.connect!rst.FieldVal!Q15)
+	Gui.frmMain.chkQ16.Value(V.ODBC.connect!rst.FieldVal!Q16)
+	Gui.frmMain.chkQ17.Value(V.ODBC.connect!rst.FieldVal!Q17)
+	Gui.frmMain.chkQ18.Value(V.ODBC.connect!rst.FieldVal!Q18)
+	Gui.frmMain.chkQ19.Value(V.ODBC.connect!rst.FieldVal!Q19)
+	Gui.frmMain.chkQ20.Value(V.ODBC.connect!rst.FieldVal!Q20)
+	Gui.frmMain.chkQ21.Value(V.ODBC.connect!rst.FieldVal!Q21)
+	Gui.frmMain.chkQ22.Value(V.ODBC.connect!rst.FieldVal!Q22)
+	Gui.frmMain.chkQ23.Value(V.ODBC.connect!rst.FieldVal!Q23)
+	Gui.frmMain.chkQ24.Value(V.ODBC.connect!rst.FieldVal!Q24)
+	Gui.frmMain.chkQ25.Value(V.ODBC.connect!rst.FieldVal!Q25)
+	Gui.frmMain.chkQ26.Value(V.ODBC.connect!rst.FieldVal!Q26)
+	Gui.frmMain.chkQ27.Value(V.ODBC.connect!rst.FieldVal!Q27)
+	Gui.frmMain.chkQ28.Value(V.ODBC.connect!rst.FieldVal!Q28)
+	Gui.frmMain.txtMatAging.Text(V.ODBC.connect!rst.FieldVal!MAT_AGING)
+	Gui.frmMain.chk30.Value(V.ODBC.connect!rst.FieldVal!Q30)
+	Gui.frmMain.chk31.Value(V.ODBC.connect!rst.FieldVal!Q31)
+	Gui.frmMain.ddlQ13SOLine.Text(V.ODBC.connect!rst.FieldValtrim!Q13_YESORNO)
+	Gui.frmMain.ddlQ16SOLine.Text(V.ODBC.connect!rst.FieldValtrim!Q16_YESORNO)
+	Gui.frmMain.ddlQ19SOLine.Text(V.ODBC.connect!rst.FieldValtrim!Q19_YESORNO)
+	Gui.frmMain.ddlQ20SOLine.Text(V.ODBC.connect!rst.FieldValtrim!Q20_YESORNO)
+	Gui.frmMain.ddlQ23SOLine.Text(V.ODBC.connect!rst.FieldValtrim!Q23_YESORNO)
+	Gui.frmMain.ddlQ24SOLine.Text(V.ODBC.connect!rst.FieldValtrim!Q24_YESORNO)
+	Gui.frmMain.txtDODRating.Text(V.ODBC.connect!rst.FieldValtrim!Q15_DODRATING)
+
+F.Intrinsic.Control.Else
+	F.Intrinsic.Control.CallSub(Sub_load_nos)
+F.Intrinsic.Control.EndIf
+
+F.ODBC.connect!rst.Close
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("sub_quote_load_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_3975_QARequirements.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(Frmmain_unload)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.sub_quote_load.End
+
+Program.Sub.sub_sales_load.Start
+F.Intrinsic.Control.SetErrorHandler("sub_sales_load_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+V.Local.sPart.Declare(String)
+V.Local.sRev.Declare(String)
+V.Local.sLoc.Declare(String)
+V.Local.sSOnumb.Declare(String)
+V.Local.sSOline.Declare(String)
+V.Local.sSQL.Declare(String)
+V.Local.sSQLInv.Declare(String)
+V.Local.sGlobalccc.Declare(String)
+
+V.Local.sSOnumb.Set(V.Passed.000060)
+V.Local.sSOline.Set(V.Passed.000051)
+V.Local.sPart.Set(V.Passed.000052.Trim)
+V.Local.sRev.Set(V.Passed.000053.Trim)
+V.Local.sLoc.Set(V.Passed.000054.Trim)
+F.Intrinsic.Control.CallSub(Sub_load_nos)
+'
+'F.Intrinsic.String.Concat("Global_",V.Caller.CompanyCode,V.Local.sGlobalccc)
+'F.odbc.Connection!connect.OpenConnection(V.Local.sGlobalccc,V.Ambient.PUser,V.Ambient.PPass)
+
+
+F.Intrinsic.String.Concat(" SELECT * FROM GCG_3975_SALES_QR where SO_NUMBER='",V.Local.sSOnumb,"' AND SO_LINE = '",V.Local.sSOline,"' AND PART = '",V.Local.sPart,"' and Rev = '",V.Local.sRev,"' and Loc = '",V.Local.sLoc,"'",V.Local.sSQL)
+F.ODBC.Connection!connect.OpenRecordsetRW("rst",V.Local.sSQL)
+F.Intrinsic.Control.If(V.ODBC.Connect!rst.EOF,=,False)
+	Gui.frmMain.ddlFAIReqSOLine.Text(V.ODBC.connect!rst.FieldValtrim!FAI_REQ)
+	Gui.frmMain.ddlFAIReq.Text(V.ODBC.connect!rst.FieldValtrim!FAI_TYPE)
+	Gui.frmMain.chkPreShipAuth.Value(V.ODBC.connect!rst.FieldValtrim!PRE_SHIP)
+	Gui.frmMain.chkQ11.Value(V.ODBC.connect!rst.FieldVal!Q11)
+	Gui.frmMain.chkQ12.Value(V.ODBC.connect!rst.FieldVal!Q12)
+	Gui.frmMain.chkQ13.Value(V.ODBC.connect!rst.FieldVal!Q13)
+	Gui.frmMain.chkQ14.Value(V.ODBC.connect!rst.FieldVal!Q14)
+	Gui.frmMain.chkQ15.Value(V.ODBC.connect!rst.FieldVal!Q15)
+	Gui.frmMain.chkQ16.Value(V.ODBC.connect!rst.FieldVal!Q16)
+	Gui.frmMain.chkQ17.Value(V.ODBC.connect!rst.FieldVal!Q17)
+	Gui.frmMain.chkQ18.Value(V.ODBC.connect!rst.FieldVal!Q18)
+	Gui.frmMain.chkQ19.Value(V.ODBC.connect!rst.FieldVal!Q19)
+	Gui.frmMain.chkQ20.Value(V.ODBC.connect!rst.FieldVal!Q20)
+	Gui.frmMain.chkQ21.Value(V.ODBC.connect!rst.FieldVal!Q21)
+	Gui.frmMain.chkQ22.Value(V.ODBC.connect!rst.FieldVal!Q22)
+	Gui.frmMain.chkQ23.Value(V.ODBC.connect!rst.FieldVal!Q23)
+	Gui.frmMain.chkQ24.Value(V.ODBC.connect!rst.FieldVal!Q24)
+	Gui.frmMain.chkQ25.Value(V.ODBC.connect!rst.FieldVal!Q25)
+	Gui.frmMain.chkQ26.Value(V.ODBC.connect!rst.FieldVal!Q26)
+	Gui.frmMain.chkQ27.Value(V.ODBC.connect!rst.FieldVal!Q27)
+	Gui.frmMain.chkQ28.Value(V.ODBC.connect!rst.FieldVal!Q28)
+	Gui.frmMain.txtMatAging.Text(V.ODBC.connect!rst.FieldVal!MAT_AGING)
+	Gui.frmMain.chk30.Value(V.ODBC.connect!rst.FieldVal!Q30)
+	Gui.frmMain.chk31.Value(V.ODBC.connect!rst.FieldVal!Q31)
+	Gui.frmMain.ddlQ13SOLine.Text(V.ODBC.connect!rst.FieldValtrim!Q13_YESORNO)
+	Gui.frmMain.ddlQ16SOLine.Text(V.ODBC.connect!rst.FieldValtrim!Q16_YESORNO)
+	Gui.frmMain.ddlQ19SOLine.Text(V.ODBC.connect!rst.FieldValtrim!Q19_YESORNO)
+	Gui.frmMain.ddlQ20SOLine.Text(V.ODBC.connect!rst.FieldValtrim!Q20_YESORNO)
+	Gui.frmMain.ddlQ23SOLine.Text(V.ODBC.connect!rst.FieldValtrim!Q23_YESORNO)
+	Gui.frmMain.ddlQ24SOLine.Text(V.ODBC.connect!rst.FieldValtrim!Q24_YESORNO)
+	Gui.frmMain.txtDODRating.Text(V.ODBC.connect!rst.FieldValtrim!Q15_DODRATING)
+F.Intrinsic.Control.Else
+	F.Intrinsic.String.Build("Select * from GCG_3975_INV_QR Where Part = '{0}' and Rev = '{1}' and Loc = '{2}'",V.Local.sPart,V.Local.sRev,V.Local.sLoc,V.Local.sSQLInv)
+	F.ODBC.Connection!connect.OpenRecordsetRO("rstInv",V.Local.sSQLInv)
+	F.Intrinsic.Control.If(V.ODBC.connect!rstInv.EOF,=,False)
+		'Load screen
+		Gui.frmMain.ddlFAIReqSOLine.Text(V.ODBC.connect!rstInv.FieldValTrim!FAI_Req)
+		Gui.frmMain.ddlFAIReq.Text(V.ODBC.connect!rstInv.FieldValTrim!FAI_Type)
+		Gui.frmMain.chkPreShipAuth.Value(V.ODBC.connect!rstInv.FieldValTrim!Pre_Ship)
+		Gui.frmMain.chkQ11.Value(V.ODBC.connect!rstInv.FieldVal!Q11)
+		Gui.frmMain.chkQ12.Value(V.ODBC.connect!rstInv.FieldVal!Q12)
+		Gui.frmMain.chkQ13.Value(V.ODBC.connect!rstInv.FieldVal!Q13)
+		Gui.frmMain.chkQ14.Value(V.ODBC.connect!rstInv.FieldVal!Q14)
+		Gui.frmMain.chkQ15.Value(V.ODBC.connect!rstInv.FieldVal!Q15)
+		Gui.frmMain.chkQ16.Value(V.ODBC.connect!rstInv.FieldVal!Q16)
+		Gui.frmMain.chkQ17.Value(V.ODBC.connect!rstInv.FieldVal!Q17)
+		Gui.frmMain.chkQ18.Value(V.ODBC.connect!rstInv.FieldVal!Q18)
+		Gui.frmMain.chkQ19.Value(V.ODBC.connect!rstInv.FieldVal!Q19)
+		Gui.frmMain.chkQ20.Value(V.ODBC.connect!rstInv.FieldVal!Q20)
+		Gui.frmMain.chkQ21.Value(V.ODBC.connect!rstInv.FieldVal!Q21)
+		Gui.frmMain.chkQ22.Value(V.ODBC.connect!rstInv.FieldVal!Q22)
+		Gui.frmMain.chkQ23.Value(V.ODBC.connect!rstInv.FieldVal!Q23)
+		Gui.frmMain.chkQ24.Value(V.ODBC.connect!rstInv.FieldVal!Q24)
+		Gui.frmMain.chkQ25.Value(V.ODBC.connect!rstInv.FieldVal!Q25)
+		Gui.frmMain.chkQ26.Value(V.ODBC.connect!rstInv.FieldVal!Q26)
+		Gui.frmMain.chkQ27.Value(V.ODBC.connect!rstInv.FieldVal!Q27)
+		Gui.frmMain.chkQ28.Value(V.ODBC.connect!rstInv.FieldVal!Q28)
+		Gui.frmMain.txtMatAging.Text(V.ODBC.connect!rstInv.FieldVal!Mat_Aging)
+		Gui.frmMain.chk30.Value(V.ODBC.connect!rstInv.FieldVal!Q30)
+		Gui.frmMain.chk31.Value(V.ODBC.connect!rstInv.FieldVal!Q31)
+		Gui.frmMain.ddlQ13SOLine.Text(V.ODBC.connect!rstInv.FieldValTrim!Q13_YesOrNo)
+		Gui.frmMain.ddlQ16SOLine.Text(V.ODBC.connect!rstInv.FieldValTrim!Q16_YesOrNo)
+		Gui.frmMain.ddlQ19SOLine.Text(V.ODBC.connect!rstInv.FieldValTrim!Q19_YesOrNo)
+		Gui.frmMain.ddlQ20SOLine.Text(V.ODBC.connect!rstInv.FieldValTrim!Q20_YesOrNo)
+		Gui.frmMain.ddlQ23SOLine.Text(V.ODBC.connect!rstInv.FieldValTrim!Q23_YesOrNo)
+		Gui.frmMain.ddlQ24SOLine.Text(V.ODBC.connect!rstInv.FieldValTrim!Q24_YesOrNo)
+	F.Intrinsic.Control.Else
+		F.Intrinsic.Control.CallSub(Sub_load_nos)
+	F.Intrinsic.Control.EndIf
+F.Intrinsic.Control.EndIf
+
+F.ODBC.connect!rst.Close
+
+Gui.frmMain..Show
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("sub_sales_load_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_3975_QARequirements.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(Frmmain_unload)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.sub_sales_load.End
+
+Program.Sub.sub_inv_save.Start
+F.Intrinsic.Control.SetErrorHandler("sub_inv_save_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+V.Local.sPart.Declare(String)
+V.Local.sRev.Declare(String)
+V.Local.sLoc.Declare(String)
+V.Local.sSQL.Declare(String)
+
+V.Local.sPart.Set(V.Passed.000007.Trim)
+V.Local.sRev.Set(V.Passed.000008.Trim)
+V.Local.sLoc.Set(V.Passed.000009.Trim)
+
+F.Intrinsic.String.Concat("SELECT * FROM GCG_3975_INV_QR where PART='",V.Local.sPart,"' and Rev = '",V.Local.sRev,"' and Loc = '",V.Local.sLoc,"'",V.Local.sSQL)
+F.ODBC.Connection!connect.OpenRecordsetRW("rstCom",V.Local.sSQL)
+F.Intrinsic.Control.If(V.ODBC.Connect!rstCom.EOF,=,True)
+	F.ODBC.connect!rstCom.AddNew
+	F.ODBC.connect!rstCom.Set!PART(V.Local.sPart)
+	F.ODBC.connect!rstcom.Set!Rev(V.Local.sRev)
+	F.ODBC.connect!rstcom.Set!Loc(V.Local.sLoc)
+F.Intrinsic.Control.endif
+
+F.ODBC.connect!rstCom.Set!FAI_REQ(V.Screen.frmMain!ddlFAIReqSOLine.text)
+F.ODBC.connect!rstCom.Set!FAI_TYPE(V.Screen.frmMain!ddlFAIReq.Text)
+F.ODBC.connect!rstCom.Set!PRE_SHIP(V.Screen.frmMain!chkPreShipAuth.Value)
+F.ODBC.connect!rstcom.Set!Q11(V.Screen.frmMain!chkQ11.Value)
+F.ODBC.connect!rstCom.Set!Q12(V.Screen.frmMain!chkQ12.Value)
+F.ODBC.connect!rstCom.Set!Q13(V.Screen.frmMain!chkQ13.Value)
+F.ODBC.connect!rstCom.Set!Q14(V.Screen.frmMain!chkQ14.Value)
+F.ODBC.connect!rstCom.Set!Q15(V.Screen.frmMain!chkQ15.Value)
+F.ODBC.connect!rstCom.Set!Q16(V.Screen.frmMain!chkQ16.Value)
+F.ODBC.connect!rstCom.Set!Q17(V.Screen.frmMain!chkQ17.Value)
+F.ODBC.connect!rstCom.Set!Q18(V.Screen.frmMain!chkQ18.Value)
+F.ODBC.connect!rstCom.Set!Q19(V.Screen.frmMain!chkQ19.Value)
+F.ODBC.connect!rstCom.Set!Q20(V.Screen.frmMain!chkQ20.Value)
+F.ODBC.connect!rstCom.Set!Q21(V.Screen.frmMain!chkQ21.Value)
+F.ODBC.connect!rstCom.Set!Q22(V.Screen.frmMain!chkQ22.Value)
+F.ODBC.connect!rstCom.Set!Q23(V.Screen.frmMain!chkQ23.Value)
+F.ODBC.connect!rstCom.Set!Q24(V.Screen.frmMain!chkQ24.Value)
+F.ODBC.connect!rstCom.Set!Q25(V.Screen.frmMain!chkQ25.Value)
+F.ODBC.connect!rstCom.Set!Q26(V.Screen.frmMain!chkQ26.Value)
+F.ODBC.connect!rstCom.Set!Q27(V.Screen.frmMain!chkQ27.Value)
+F.ODBC.connect!rstCom.Set!Q28(V.Screen.frmMain!chkQ28.Value)
+F.ODBC.connect!rstCom.Set!MAT_AGING(V.Screen.frmMain!txtMatAging.Text)
+F.ODBC.connect!rstCom.Set!Q30(V.Screen.frmMain!chk30.Value)
+F.ODBC.connect!rstCom.Set!Q31(V.Screen.frmMain!chk31.Value)
+F.ODBC.connect!rstcom.Set!Q13_YESORNO(V.Screen.frmMain!ddlQ13SOLine.text)
+F.ODBC.connect!rstcom.Set!Q16_YESORNO(V.Screen.frmMain!ddlQ16SOLine.text)
+F.ODBC.connect!rstcom.Set!Q19_YESORNO(V.Screen.frmMain!ddlQ19SOLine.text)
+F.ODBC.connect!rstcom.Set!Q20_YESORNO(V.Screen.frmMain!ddlQ20SOLine.text)
+F.ODBC.connect!rstcom.Set!Q23_YESORNO(V.Screen.frmMain!ddlQ23SOLine.text)
+F.ODBC.connect!rstcom.Set!Q24_YESORNO(V.Screen.frmMain!ddlQ24SOLine.text)
+F.ODBC.connect!rstcom.Set!Q15_DODRATING(V.Screen.frmMain!txtDODRating.text)
+
+F.ODBC.connect!rstCom.Update
+'		F.Intrinsic.UI.Msgbox("Saved")
+F.ODBC.connect!rstCom.Close
+F.Intrinsic.Control.CallSub(Frmmain_unload)
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("sub_inv_save_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_3975_QARequirements.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(Frmmain_unload)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.sub_inv_save.End
+
+Program.Sub.sub_quote_save.Start
+F.Intrinsic.Control.SetErrorHandler("sub_quote_save_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+V.Local.sPart.Declare(String)
+V.Local.sRev.Declare(String)
+V.Local.sLoc.Declare(String)
+V.Local.sQuotenumb.Declare(String)
+V.Local.sQuoteline.Declare(String)
+V.Local.sSQL.Declare(String)
+
+V.Local.sQuotenumb.Set(V.Passed.000060)
+V.Local.sQuoteline.Set(V.Passed.000051)
+V.Local.sPart.Set(V.Passed.000052.Trim)
+V.Local.sRev.Set(V.Passed.000053.Trim)
+V.Local.sLoc.Set(V.Passed.000054.Trim)
+
+F.Intrinsic.String.Concat("SELECT * FROM GCG_3975_QUOTE_QR where QUOTE_NUM='",V.Local.sQuotenumb,"' AND QUOTE_LINE = '",V.Local.sQuoteline,"' AND PART = '",V.Local.sPart,"' and Rev = '",V.Local.sRev,"' and Loc = '",V.Local.sLoc,"'",V.Local.sSQL)
+F.ODBC.Connection!connect.OpenRecordsetRW("rst",V.Local.sSQL)
+F.Intrinsic.Control.If(V.ODBC.Connect!rst.EOF,=,True)
+        F.ODBC.connect!rst.AddNew
+	F.ODBC.connect!rst.Set!PART(V.Local.sPart)
+	F.ODBC.connect!rst.Set!Rev(V.Local.sRev)
+	F.ODBC.connect!rst.Set!Loc(V.Local.sLoc)
+F.Intrinsic.Control.endif
+
+F.ODBC.connect!rst.Set!FAI_REQ(V.Screen.frmMain!ddlFAIReqSOLine.text)
+F.ODBC.connect!rst.Set!FAI_TYPE(V.Screen.frmMain!ddlFAIReq.Text)
+F.ODBC.connect!rst.Set!PRE_SHIP(V.Screen.frmMain!chkPreShipAuth.Value)
+F.ODBC.connect!rst.Set!Q11(V.Screen.frmMain!chkQ11.Value)
+F.ODBC.connect!rst.Set!Q12(V.Screen.frmMain!chkQ12.Value)
+F.ODBC.connect!rst.Set!Q13(V.Screen.frmMain!chkQ13.Value)
+F.ODBC.connect!rst.Set!Q14(V.Screen.frmMain!chkQ14.Value)
+F.ODBC.connect!rst.Set!Q15(V.Screen.frmMain!chkQ15.Value)
+F.ODBC.connect!rst.Set!Q16(V.Screen.frmMain!chkQ16.Value)
+F.ODBC.connect!rst.Set!Q17(V.Screen.frmMain!chkQ17.Value)
+F.ODBC.connect!rst.Set!Q18(V.Screen.frmMain!chkQ18.Value)
+F.ODBC.connect!rst.Set!Q19(V.Screen.frmMain!chkQ19.Value)
+F.ODBC.connect!rst.Set!Q20(V.Screen.frmMain!chkQ20.Value)
+F.ODBC.connect!rst.Set!Q21(V.Screen.frmMain!chkQ21.Value)
+F.ODBC.connect!rst.Set!Q22(V.Screen.frmMain!chkQ22.Value)
+F.ODBC.connect!rst.Set!Q23(V.Screen.frmMain!chkQ23.Value)
+F.ODBC.connect!rst.Set!Q24(V.Screen.frmMain!chkQ24.Value)
+F.ODBC.connect!rst.Set!Q25(V.Screen.frmMain!chkQ25.Value)
+F.ODBC.connect!rst.Set!Q26(V.Screen.frmMain!chkQ26.Value)
+F.ODBC.connect!rst.Set!Q27(V.Screen.frmMain!chkQ27.Value)
+F.ODBC.connect!rst.Set!Q28(V.Screen.frmMain!chkQ28.Value)
+F.ODBC.connect!rst.Set!MAT_AGING(V.Screen.frmMain!txtMatAging.Text)
+F.ODBC.connect!rst.Set!Q30(V.Screen.frmMain!chk30.Value)
+F.ODBC.connect!rst.Set!Q31(V.Screen.frmMain!chk31.Value)
+F.ODBC.connect!rst.Set!Q13_YESORNO(V.Screen.frmMain!ddlQ13SOLine.text)
+F.ODBC.connect!rst.Set!Q16_YESORNO(V.Screen.frmMain!ddlQ16SOLine.text)
+F.ODBC.connect!rst.Set!Q19_YESORNO(V.Screen.frmMain!ddlQ19SOLine.text)
+F.ODBC.connect!rst.Set!Q20_YESORNO(V.Screen.frmMain!ddlQ20SOLine.text)
+F.ODBC.connect!rst.Set!Q23_YESORNO(V.Screen.frmMain!ddlQ23SOLine.text)
+F.ODBC.connect!rst.Set!Q24_YESORNO(V.Screen.frmMain!ddlQ24SOLine.text)
+F.ODBC.connect!rst.Set!Q15_DODRATING(V.Screen.frmMain!txtDODRating.text)
+F.ODBC.connect!rst.Update
+'		F.Intrinsic.UI.Msgbox("Saved")
+F.ODBC.connect!rst.Close
+F.Intrinsic.Control.CallSub(Frmmain_unload)
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("sub_quote_save_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_3975_QARequirements.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(Frmmain_unload)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.sub_quote_save.End
+
+Program.Sub.sub_sales_save.Start
+F.Intrinsic.Control.SetErrorHandler("sub_sales_save_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+V.Local.sPart.Declare(String)
+V.Local.sRev.Declare(String)
+V.Local.sLoc.Declare(String)
+V.Local.sSOnumb.Declare(String)
+V.Local.sSOline.Declare(String)
+V.Local.sSQL.Declare(String)
+V.Local.sTempFile.Declare(String)
+V.Local.bFile.Declare(Boolean)
+V.Local.sNewPartNo.Declare(String)
+V.Local.sNewPartDesc.Declare(String)
+V.Local.sDelPartNo.Declare(String)
+V.Local.sCurr.Declare(String)
+
+V.Local.sSOnumb.Set(V.Passed.000060)
+V.Local.sSOline.Set(V.Passed.000051)
+V.Local.sPart.Set(V.Passed.000052.Trim)
+V.Local.sRev.Set(V.Passed.000053.Trim)
+V.Local.sLoc.Set(V.Passed.000054.Trim)
+F.Intrinsic.String.Build("{0}\{1}SALESHDR.txt",V.Caller.FilesDir,V.Local.sSOnumb,V.Local.sTempFile)
+F.Intrinsic.File.Exists(V.Local.sTempFile,V.Local.bFile)
+
+
+
+
+
+
+F.Intrinsic.String.Concat(" SELECT * FROM GCG_3975_SALES_QR where SO_NUMBER='",V.Local.sSOnumb,"' AND SO_LINE = '",V.Local.sSOline,"' AND PART = '",V.Local.sPart,"' and Rev = '",V.Local.sRev,"' and Loc = '",V.Local.sLoc,"'",V.Local.sSQL)
+F.ODBC.Connection!connect.OpenRecordsetRW("rst",V.Local.sSQL)
+F.Intrinsic.Control.If(V.ODBC.Connect!rst.EOF,=,True)
+	
+	F.ODBC.connect!rst.AddNew
+	F.ODBC.connect!rst.Set!So_Number(V.Local.sSOnumb)
+	F.ODBC.connect!rst.Set!SO_Line(V.Local.sSOline)
+	F.ODBC.connect!rst.Set!PART(V.Local.sPart)
+	F.ODBC.connect!rst.Set!Rev(V.Local.sRev)
+	F.ODBC.connect!rst.Set!Loc(V.Local.sLoc)
+	F.Intrinsic.Control.If(V.Screen.frmMain!ddlFAIReq.Text,!=,"Not Required")
+		F.Intrinsic.Control.If(V.Screen.frmMain!ddlFaiReqSoLine.Text,=,"Yes")
+			'Add to upload
+			F.Intrinsic.String.LimitSplit(V.Screen.frmMain!ddlFAIReq.Text,6,V.Local.sNewPartNo)
+			F.Intrinsic.String.Build("{0}-{1}",V.Local.sPart,V.Local.sNewPartNo,V.Local.sNewPartNo)
+			V.Local.sNewPartDesc.Set(V.Screen.frmMain!ddlFAIReq.Text)
+			F.Intrinsic.Control.CallSub(Sales_tempfile,"NewPartNo",V.Local.sNewPartNo,"NewPartDesc",V.Local.sNewPartDesc)
+		F.Intrinsic.Control.EndIf
+	F.Intrinsic.Control.EndIf
+
+	F.Intrinsic.Control.If(V.Screen.frmMain!chkQ13.Value,=,1)
+		F.Intrinsic.Control.If(V.Screen.frmMain!ddlQ13SOLine.Text,=,"Yes")
+			'Add to upload
+			F.Intrinsic.String.Build("{0}-Q13",V.Local.sPart,V.Local.sNewPartNo)
+			V.Local.sNewPartDesc.Set("Special C of C")
+			F.Intrinsic.Control.CallSub(Sales_tempfile,"NewPartNo",V.Local.sNewPartNo,"NewPartDesc",V.Local.sNewPartDesc)
+		F.Intrinsic.Control.EndIf
+	F.Intrinsic.Control.EndIf
+
+	F.Intrinsic.Control.If(V.Screen.frmMain!chkQ16.Value,=,1)
+		F.Intrinsic.Control.If(V.Screen.frmMain!ddlQ16SOLine.Text,=,"Yes")
+			'Add to upload
+			F.Intrinsic.String.Build("{0}-Q16",V.Local.sPart,V.Local.sNewPartNo)
+			V.Local.sNewPartDesc.Set("Manufacture Cert")
+			F.Intrinsic.Control.CallSub(Sales_tempfile,"NewPartNo",V.Local.sNewPartNo,"NewPartDesc",V.Local.sNewPartDesc)
+		F.Intrinsic.Control.EndIf
+	F.Intrinsic.Control.EndIf
+
+	F.Intrinsic.Control.If(V.Screen.frmMain!chkQ19.Value,=,1)
+		F.Intrinsic.Control.If(V.Screen.frmMain!ddlQ19SOLine.Text,=,"Yes")
+			'Add to Upload
+			F.Intrinsic.String.Build("{0}-Q19",V.Local.sPart,V.Local.sNewPartNo)
+			V.Local.sNewPartDesc.Set("Physical Test")
+			F.Intrinsic.Control.CallSub(Sales_tempfile,"NewPartNo",V.Local.sNewPartNo,"NewPartDesc",V.Local.sNewPartDesc)
+		F.Intrinsic.Control.EndIf
+	F.Intrinsic.Control.EndIf
+
+	F.Intrinsic.Control.If(V.Screen.frmMain!chkQ20.Value,=,1)
+		F.Intrinsic.Control.If(V.Screen.frmMain!ddlQ20SOLine.Text,=,"Yes")
+			'Add to Upload
+			F.Intrinsic.String.Build("{0}-Q20",V.Local.sPart,V.Local.sNewPartNo)
+			V.Local.sNewPartDesc.Set("Chemical Test")
+			F.Intrinsic.Control.CallSub(Sales_tempfile,"NewPartNo",V.Local.sNewPartNo,"NewPartDesc",V.Local.sNewPartDesc)
+		F.Intrinsic.Control.EndIf
+	F.Intrinsic.Control.EndIf
+
+	F.Intrinsic.Control.If(V.Screen.frmMain!chkQ23.Value,=,1)
+		F.Intrinsic.Control.If(V.Screen.frmMain!ddlQ23SOLine.Text,=,"Yes")
+			'Add to upload
+			F.Intrinsic.String.Build("{0}-Q23",V.Local.sPart,V.Local.sNewPartNo)
+			V.Local.sNewPartDesc.Set("Src Insp Buyer")
+			F.Intrinsic.Control.CallSub(Sales_tempfile,"NewPartNo",V.Local.sNewPartNo,"NewPartDesc",V.Local.sNewPartDesc)
+		F.Intrinsic.Control.EndIf
+	F.Intrinsic.Control.EndIf
+
+	F.Intrinsic.Control.If(V.Screen.frmMain!chkQ24.Value,=,1)
+		F.Intrinsic.Control.If(V.Screen.frmMain!ddlQ23SOLine.Text,=,"Yes")
+			'Add to upload
+			F.Intrinsic.String.Build("{0}-Q24",V.Local.sPart,V.Local.sNewPartNo)
+			V.Local.sNewPartDesc.Set("Src Insp Govt")
+			F.Intrinsic.Control.CallSub(Sales_tempfile,"NewPartNo",V.Local.sNewPartNo,"NewPartDesc",V.Local.sNewPartDesc)
+		F.Intrinsic.Control.EndIf
+	F.Intrinsic.Control.EndIf
+
+
+F.Intrinsic.Control.Else
+
+
+	F.Intrinsic.Control.If(V.ODBC.connect!rst.FieldValTrim!FAI_Type,!=,V.Screen.frmMain!ddlFAIReq.Text,"AND",V.Screen.frmMain!ddlFAIReq.Text,!=,"Not Required")
+		F.Intrinsic.Control.If(V.Screen.frmMain!ddlFAIReqSOLine.Text,=,"Yes")
+			'Add to upload
+			F.Intrinsic.String.LimitSplit(V.Screen.frmMain!ddlFAIReq.Text,6,V.Local.sNewPartNo)
+			F.Intrinsic.String.Build("{0}-{1}",V.Local.sPart,V.Local.sNewPartNo,V.Local.sNewPartNo)
+			V.Local.sNewPartDesc.Set(V.Screen.frmMain!ddlFAIReq.Text)
+			F.Intrinsic.Control.CallSub(Sales_tempfile,"NewPartNo",V.Local.sNewPartNo,"NewPartDesc",V.Local.sNewPartDesc)
+			'Remove from order
+			F.Intrinsic.String.LimitSplit(V.ODBC.connect!rst.FieldValTrim!FAI_Type,6,V.Local.sDelPartNo)
+			F.Intrinsic.String.Build("{0}-{1}",V.Local.sPart,V.Local.sDelPartNo,V.Local.sDelPartNo)
+			F.Intrinsic.Control.CallSub(Sales_delete_line,"DelPart",V.Local.sDelPartNo)
+
+		F.Intrinsic.Control.EndIf
+	F.Intrinsic.Control.ElseIf(V.Screen.frmMain!ddlFAIReq.Text,=,"Not Required","AND",V.ODBC.connect!rst.FieldValTrim!FAI_Type,!=,V.Screen.frmMain!ddlFAIReq.Text)
+		'Remove from order
+		F.Intrinsic.String.LimitSplit(V.ODBC.connect!rst.FieldValTrim!FAI_Type,6,V.Local.sDelPartNo)
+		F.Intrinsic.String.Build("{0}-{1}",V.Local.sPart,V.Local.sDelPartNo,V.Local.sDelPartNo)
+		F.Intrinsic.Control.CallSub(Sales_delete_line,"DelPart",V.Local.sDelPartNo)
+	F.Intrinsic.Control.EndIf
+
+	F.Intrinsic.Control.If(V.ODBC.connect!rst.FieldValLong!Q13,!=,V.Screen.frmMain!chkQ13.Value,"AND",V.Screen.frmMain!chkQ13.Value,=,1)
+		F.Intrinsic.Control.If(V.Screen.frmMain!ddlQ13SOLine.Text,=,"Yes")
+			'Add to upload
+			F.Intrinsic.String.Build("{0}-Q13",V.Local.sPart,V.Local.sNewPartNo)
+			V.Local.sNewPartDesc.Set("Special C of C")
+			F.Intrinsic.Control.CallSub(Sales_tempfile,"NewPartNo",V.Local.sNewPartNo,"NewPartDesc",V.Local.sNewPartDesc)
+		F.Intrinsic.Control.EndIf
+	F.Intrinsic.Control.ElseIf(V.ODBC.connect!rst.FieldValLong!Q13,!=,V.Screen.frmMain!chkQ13.Value)
+		'Remove from order
+		F.Intrinsic.String.Build("{0}-Q13",V.Local.sPart,V.Local.sDelPartNo)
+		F.Intrinsic.Control.CallSub(Sales_delete_line,"DelPart",V.Local.sDelPartNo)
+	F.Intrinsic.Control.EndIf
+
+	F.Intrinsic.Control.If(V.ODBC.connect!rst.FieldValLong!Q16,!=,V.Screen.frmMain!chkQ16.Value,"AND",V.Screen.frmMain!chkQ16.Value,=,1)
+		F.Intrinsic.Control.If(V.Screen.frmMain!ddlQ16SOLine.Text,=,"Yes")
+			'Add to upload
+			F.Intrinsic.String.Build("{0}-Q16",V.Local.sPart,V.Local.sNewPartNo)
+			V.Local.sNewPartDesc.Set("Manufacture Cert")
+			F.Intrinsic.Control.CallSub(Sales_tempfile,"NewPartNo",V.Local.sNewPartNo,"NewPartDesc",V.Local.sNewPartDesc)
+		F.Intrinsic.Control.EndIf
+	F.Intrinsic.Control.ElseIf(V.ODBC.connect!rst.FieldValLong!Q16,!=,V.Screen.frmMain!chkQ16.Value)
+		'Remove from order
+		F.Intrinsic.String.Build("{0}-Q16",V.Local.sPart,V.Local.sDelPartNo)
+		F.Intrinsic.Control.CallSub(Sales_delete_line,"DelPart",V.Local.sDelPartNo)
+	F.Intrinsic.Control.EndIf
+
+	F.Intrinsic.Control.If(V.ODBC.connect!rst.FieldValLong!Q19,!=,V.Screen.frmMain!chkQ19.Value,"AND",V.Screen.frmMain!chkQ19.Value,=,1)
+		F.Intrinsic.Control.If(V.Screen.frmMain!ddlQ19SOLine.Text,=,"Yes")
+			'Add to Upload
+			F.Intrinsic.String.Build("{0}-Q19",V.Local.sPart,V.Local.sNewPartNo)
+			V.Local.sNewPartDesc.Set("Physical Test")
+			F.Intrinsic.Control.CallSub(Sales_tempfile,"NewPartNo",V.Local.sNewPartNo,"NewPartDesc",V.Local.sNewPartDesc)
+		F.Intrinsic.Control.EndIf
+	F.Intrinsic.Control.ElseIf(V.ODBC.connect!rst.FieldValLong!Q19,!=,V.Screen.frmMain!chkQ19.Value)
+		'Remove from order
+		F.Intrinsic.String.Build("{0}-Q19",V.Local.sPart,V.Local.sDelPartNo)
+		F.Intrinsic.Control.CallSub(Sales_delete_line,"DelPart",V.Local.sDelPartNo)
+	F.Intrinsic.Control.EndIf
+
+	F.Intrinsic.Control.If(V.ODBC.connect!rst.FieldValLong!Q20,!=,V.Screen.frmMain!chkQ20.Value,"AND",V.Screen.frmMain!chkQ20.Value,=,1)
+		F.Intrinsic.Control.If(V.Screen.frmMain!ddlQ20SOLine.Text,=,"Yes")
+			'Add to Upload
+			F.Intrinsic.String.Build("{0}-Q20",V.Local.sPart,V.Local.sNewPartNo)
+			V.Local.sNewPartDesc.Set("Chemical Test")
+			F.Intrinsic.Control.CallSub(Sales_tempfile,"NewPartNo",V.Local.sNewPartNo,"NewPartDesc",V.Local.sNewPartDesc)
+		F.Intrinsic.Control.EndIf
+	F.Intrinsic.Control.ElseIf(V.ODBC.connect!rst.FieldValLong!Q20,!=,V.Screen.frmMain!chkQ20.Value)
+		'Remove from order
+		F.Intrinsic.String.Build("{0}-Q20",V.Local.sPart,V.Local.sDelPartNo)
+		F.Intrinsic.Control.CallSub(Sales_delete_line,"DelPart",V.Local.sDelPartNo)
+	F.Intrinsic.Control.EndIf
+
+	F.Intrinsic.Control.If(V.ODBC.connect!rst.FieldValLong!Q23,!=,V.Screen.frmMain!chkQ23.Value,"AND",V.Screen.frmMain!chkQ23.Value,=,1)
+		F.Intrinsic.Control.If(V.Screen.frmMain!ddlQ23SOLine.Text,=,"Yes")
+			'Add to upload
+			F.Intrinsic.String.Build("{0}-Q23",V.Local.sPart,V.Local.sNewPartNo)
+			V.Local.sNewPartDesc.Set("Src Insp Buyer")
+			F.Intrinsic.Control.CallSub(Sales_tempfile,"NewPartNo",V.Local.sNewPartNo,"NewPartDesc",V.Local.sNewPartDesc)
+		F.Intrinsic.Control.EndIf
+	F.Intrinsic.Control.ElseIf(V.ODBC.connect!rst.FieldValLong!Q23,!=,V.Screen.frmMain!chkQ23.Value)
+		'Remove from order
+		F.Intrinsic.String.Build("{0}-Q23",V.Local.sPart,V.Local.sDelPartNo)
+		F.Intrinsic.Control.CallSub(Sales_delete_line,"DelPart",V.Local.sDelPartNo)
+	F.Intrinsic.Control.EndIf
+
+	F.Intrinsic.Control.If(V.ODBC.connect!rst.FieldValLong!Q24,!=,V.Screen.frmMain!chkQ24.Value,"AND",V.Screen.frmMain!chkQ24.Value,=,1)
+		F.Intrinsic.Control.If(V.Screen.frmMain!ddlQ23SOLine.Text,=,"Yes")
+			'Add to upload
+			F.Intrinsic.String.Build("{0}-Q24",V.Local.sPart,V.Local.sNewPartNo)
+			V.Local.sNewPartDesc.Set("Src Insp Govt")
+			F.Intrinsic.Control.CallSub(Sales_tempfile,"NewPartNo",V.Local.sNewPartNo,"NewPartDesc",V.Local.sNewPartDesc)
+		F.Intrinsic.Control.EndIf
+	F.Intrinsic.Control.ElseIf(V.ODBC.connect!rst.FieldValLong!Q24,!=,V.Screen.frmMain!chkQ24.Value)
+		'Remove from order
+		F.Intrinsic.String.Build("{0}-Q24",V.Local.sPart,V.Local.sDelPartNo)
+		F.Intrinsic.Control.CallSub(Sales_delete_line,"DelPart",V.Local.sDelPartNo)
+	F.Intrinsic.Control.EndIf
+
+F.Intrinsic.Control.EndIf
+
+F.ODBC.connect!rst.Set!FAI_REQ(V.Screen.frmMain!ddlFAIReqSOLine.text)
+F.ODBC.connect!rst.Set!FAI_TYPE(V.Screen.frmMain!ddlFAIReq.Text)
+F.ODBC.connect!rst.Set!PRE_SHIP(V.Screen.frmMain!chkPreShipAuth.Value)
+F.ODBC.connect!rst.Set!Q11(V.Screen.frmMain!chkQ11.Value)
+F.ODBC.connect!rst.Set!Q12(V.Screen.frmMain!chkQ12.Value)
+F.ODBC.connect!rst.Set!Q13(V.Screen.frmMain!chkQ13.Value)
+F.ODBC.connect!rst.Set!Q14(V.Screen.frmMain!chkQ14.Value)
+F.ODBC.connect!rst.Set!Q15(V.Screen.frmMain!chkQ15.Value)
+F.ODBC.connect!rst.Set!Q16(V.Screen.frmMain!chkQ16.Value)
+F.ODBC.connect!rst.Set!Q17(V.Screen.frmMain!chkQ17.Value)
+F.ODBC.connect!rst.Set!Q18(V.Screen.frmMain!chkQ18.Value)
+F.ODBC.connect!rst.Set!Q19(V.Screen.frmMain!chkQ19.Value)
+F.ODBC.connect!rst.Set!Q20(V.Screen.frmMain!chkQ20.Value)
+F.ODBC.connect!rst.Set!Q21(V.Screen.frmMain!chkQ21.Value)
+F.ODBC.connect!rst.Set!Q22(V.Screen.frmMain!chkQ22.Value)
+F.ODBC.connect!rst.Set!Q23(V.Screen.frmMain!chkQ23.Value)
+F.ODBC.connect!rst.Set!Q24(V.Screen.frmMain!chkQ24.Value)
+F.ODBC.connect!rst.Set!Q25(V.Screen.frmMain!chkQ25.Value)
+F.ODBC.connect!rst.Set!Q26(V.Screen.frmMain!chkQ26.Value)
+F.ODBC.connect!rst.Set!Q27(V.Screen.frmMain!chkQ27.Value)
+F.ODBC.connect!rst.Set!Q28(V.Screen.frmMain!chkQ28.Value)
+F.ODBC.connect!rst.Set!MAT_AGING(V.Screen.frmMain!txtMatAging.Text)
+F.ODBC.connect!rst.Set!Q30(V.Screen.frmMain!chk30.Value)
+F.ODBC.connect!rst.Set!Q31(V.Screen.frmMain!chk31.Value)
+F.ODBC.connect!rst.Set!Q13_YESORNO(V.Screen.frmMain!ddlQ13SOLine.text)
+F.ODBC.connect!rst.Set!Q16_YESORNO(V.Screen.frmMain!ddlQ16SOLine.text)
+F.ODBC.connect!rst.Set!Q19_YESORNO(V.Screen.frmMain!ddlQ19SOLine.text)
+F.ODBC.connect!rst.Set!Q20_YESORNO(V.Screen.frmMain!ddlQ20SOLine.text)
+F.ODBC.connect!rst.Set!Q23_YESORNO(V.Screen.frmMain!ddlQ23SOLine.text)
+F.ODBC.connect!rst.Set!Q24_YESORNO(V.Screen.frmMain!ddlQ24SOLine.text)
+F.ODBC.connect!rst.Set!Q15_DODRATING(V.Screen.frmMain!txtDODRating.text)
+
+
+F.ODBC.connect!rst.Update
+
+F.ODBC.connect!rst.Close
+F.Intrinsic.Control.CallSub(Frmmain_unload)
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("sub_sales_save_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_3975_QARequirements.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(Frmmain_unload)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.sub_sales_save.End
+
+Program.Sub.sub_load_nos.Start
+F.Intrinsic.Control.SetErrorHandler("sub_load_nos_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+
+Gui.frmMain.ddlFAIReqSOLine.Text("No")
+Gui.frmMain.ddlQ13SOLine.Text("No")
+Gui.frmMain.ddlQ16SOLine.Text("No")
+Gui.frmMain.ddlQ19SOLine.Text("No")
+Gui.frmMain.ddlQ20SOLine.Text("No")
+Gui.frmMain.ddlQ23SOLine.Text("No")
+Gui.frmMain.ddlQ24SOLine.Text("No")
+Gui.frmMain.ddlFAIReq.Text("Not Required")
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("sub_load_nos_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_3975_QARequirements.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(Frmmain_unload)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.sub_load_nos.End
+
+Program.Sub.sub_quote_Delete.Start
+F.Intrinsic.Control.SetErrorHandler("sub_quote_Delete_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+V.Local.sSql.Declare(String)
+
+'10542
+F.Intrinsic.Control.SelectCase(V.Caller.Hook)
+	F.Intrinsic.Control.Case(10542)
+		F.Intrinsic.String.Build("Delete From GCG_3975_QUOTE_QR where Quote_Num = '{0}' and Quote_LIne = '{1}'",V.Passed.000060,V.Passed.000051,V.Local.sSql)
+		F.ODBC.Connection!connect.Execute(V.Local.sSql)
+
+	F.Intrinsic.Control.Case(10932)
+		F.Intrinsic.String.Build("Delete From GCG_3975_QUOTE_QR where Quote_Num = '{0}'",V.Passed.000003,V.Local.sSql)
+		F.ODBC.Connection!connect.Execute(V.Local.sSql)
+
+F.Intrinsic.Control.EndSelect
+
+F.Intrinsic.Control.CallSub(Frmmain_unload)
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("sub_quote_Delete_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_3975_QARequirements.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(Frmmain_unload)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.sub_quote_Delete.End
+
+Program.Sub.sub_sales_Delete.Start
+F.Intrinsic.Control.SetErrorHandler("sub_sales_Delete_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+V.Local.sSql.Declare(String)
+
+F.Intrinsic.Control.SelectCase(V.Caller.Hook)
+
+	F.Intrinsic.Control.Case(12242)
+		F.Intrinsic.String.Build("Delete From GCG_3975_SALES_QR where SO_Number = '{0}' and SO_Line = '{1}'",V.Passed.000060.Trim,V.Passed.000051.Trim,V.Local.sSql)
+		F.ODBC.Connection!connect.Execute(V.Local.sSql)
+
+	F.Intrinsic.Control.Case(11882)
+		F.Intrinsic.String.Build("Delete From GCG_3975_SALES_QR where SO_Number = '{0}'",V.Passed.000003.Trim,V.Local.sSql)
+		F.ODBC.Connection!connect.Execute(V.Local.sSql)
+
+F.Intrinsic.Control.EndSelect
+
+F.Intrinsic.Control.CallSub(Frmmain_unload)
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("sub_sales_Delete_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_3975_QARequirements.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(Frmmain_unload)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.sub_sales_Delete.End
+
+Program.Sub.sub_inv_Delete.Start
+F.Intrinsic.Control.SetErrorHandler("sub_inv_Delete_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+V.Local.sSql.Declare(String)
+
+'Delete the Part Quailty record
+F.Intrinsic.String.Build("Delete from GCG_3975_INV_QR where Part = '{0}' and Loc = '{1}' and Rev = '{2}'",V.Passed.000007.Trim,V.Passed.000009.Trim,V.Passed.000008.Trim,V.Local.sSql)
+F.ODBC.Connection!connect.Execute(V.Local.sSql)
+
+F.Intrinsic.Control.CallSub(Frmmain_unload)
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("sub_inv_Delete_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_3975_QARequirements.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(Frmmain_unload)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.sub_inv_Delete.End
+
+Program.Sub.sub_po.Start
+F.Intrinsic.Control.SetErrorHandler("sub_po_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+V.Local.sPart.Declare(String)
+V.Local.sRev.Declare(String)
+V.Local.sLoc.Declare(String)
+V.Local.sPOnumb.Declare(String)
+V.Local.sPOline.Declare(String)
+V.Local.sSQL.Declare(String)
+
+V.Local.sPOnumb.Set(V.Passed.008002)
+V.Local.sPOline.Set(V.Passed.008001)
+V.Local.sPart.Set(V.Passed.000008.Trim)
+V.Local.sRev.Set(V.Passed.000009.Trim)
+V.Local.sLoc.Set(V.Passed.000011.Trim)
+
+F.Intrinsic.String.Concat("SELECT * FROM GCG_PO_QR where PO_NUMBER='",V.Local.sPOnumb,"' AND PO_LINE = '",V.Local.sPOline,"' AND PART = '",V.Local.sPart,"' and Rev = '",V.Local.sRev,"' and Loc = '",V.Local.sLoc,"' ",V.Local.sSQL)
+F.ODBC.Connection!connect.OpenRecordsetRW("rstcom",V.Local.sSQL)
+
+F.Intrinsic.Control.If(V.ODBC.Connect!rstcom.EOF,=,True)
+	
+
+	F.ODBC.connect!rstcom.AddNew
+	F.Intrinsic.String.Concat("INSERT INTO GCG_PO_QR (PART,Rev ,LOC,FAI_REQ,FAI_TYPE,PRE_SHIP,Q11,Q12,Q13,Q14,Q15,Q16,Q17,Q18,Q19,Q20,Q21,Q22,Q23,Q24,Q25,Q26,Q27,Q28,MAT_AGING,Q30,Q31,Q13_YESORNO,Q16_YESORNO,Q19_YESORNO,Q20_YESORNO,Q23_YESORNO,Q24_YESORNO,Q15_DODRATING) SELECT PART, Rev ,LOC,FAI_REQ,FAI_TYPE,PRE_SHIP,Q11,Q12,Q13,Q14,Q15,Q16,Q17,Q18,Q19,Q20,Q21,Q22,Q23,Q24,Q25,Q26,Q27,Q28,MAT_AGING,Q30,Q31,Q13_YESORNO,Q16_YESORNO,Q19_YESORNO,Q20_YESORNO,Q23_YESORNO,Q24_YESORNO,Q15_DODRATING FROM GCG_3975_INV_QR WHERE PART = '",V.Local.sPart,"' and Rev = '",V.Local.sRev,"' and Loc = '",V.Local.sLoc,"' ",V.Local.sSQL)
+	F.ODBC.Connection!connect.Execute(V.Local.sSQL)
+
+	F.Intrinsic.String.Concat("UPDATE GCG_PO_QR SET PO_NUMBER = '",V.Local.sPOnumb,"' WHERE PART = '",V.Local.sPart,"' and Rev = '",V.Local.sRev,"' and Loc = '",V.Local.sLoc,"' AND PO_NUMBER IS NULL",V.Local.sSQL)
+	F.ODBC.connection!connect.Execute(V.Local.sSQL)
+
+	F.Intrinsic.String.Concat("UPDATE GCG_PO_QR SET PO_LINE = '",V.Local.sPOline,"' WHERE PART = '",V.Local.sPart,"' and Rev = '",V.Local.sRev,"' and Loc='",V.Local.sLoc,"'AND PO_NUMBER='",V.Local.sPOnumb,"'AND PO_LINE IS NULL",V.Local.sSQL)
+	F.ODBC.connection!connect.Execute(V.Local.sSQL)
+
+F.Intrinsic.Control.EndIf
+
+'F.ODBC.connect!rstcom.Close
+
+F.Intrinsic.Control.CallSub(Sub_load_values)
+F.Intrinsic.Control.CallSub(Sub_po_load)
+
+Gui.frmMain..Visible(True)
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("sub_po_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_UnitedSeal_QARequirements.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(Frmmain_unload)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.sub_po.End
+
+Program.Sub.sub_po_load.Start
+F.Intrinsic.Control.SetErrorHandler("sub_po_load_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+V.Local.sPart.Declare(String)
+V.Local.sRev.Declare(String)
+V.Local.sPOnumb.Declare(String)
+V.Local.sPOline.Declare(String)
+V.Local.sLoc.Declare(String)
+V.Local.sSQL.Declare(String)
+V.Local.sGlobalccc.Declare(String)
+
+V.Local.sPOnumb.Set(V.Passed.008002)
+V.Local.sPOline.Set(V.Passed.008001)
+V.Local.sPart.Set(V.Passed.000008.Trim)
+V.Local.sRev.Set(V.Passed.000009.Trim)
+V.Local.sLoc.Set(V.Passed.000011.Trim)
+F.Intrinsic.Control.CallSub(Sub_load_nos)
+'
+'F.Intrinsic.String.Concat("Global_",V.Caller.CompanyCode,V.Local.sGlobalccc)
+'F.odbc.Connection!connect.OpenConnection(V.Local.sGlobalccc,V.Ambient.PUser,V.Ambient.PPass)
+
+F.Intrinsic.String.Concat(" SELECT * FROM GCG_PO_QR where PO_NUMBER='",V.Local.sPOnumb,"' AND PO_LINE = '",V.Local.sPOline,"' AND PART = '",V.Local.sPart,"' and Rev = '",V.Local.sRev,"' and Loc = '",V.Local.sLoc,"'",V.Local.sSQL)
+F.ODBC.Connection!connect.OpenRecordsetRW("rst",V.Local.sSQL)
+F.Intrinsic.Control.If(V.ODBC.Connect!rst.EOF,=,False)
+	Gui.frmMain.ddlFAIReqSOLine.Text(V.ODBC.connect!rst.FieldValtrim!FAI_REQ)
+	Gui.frmMain.ddlFAIReq.Text(V.ODBC.connect!rst.FieldValtrim!FAI_TYPE)
+	Gui.frmMain.chkPreShipAuth.Value(V.ODBC.connect!rst.FieldValtrim!PRE_SHIP)
+	Gui.frmMain.chkQ11.Value(V.ODBC.connect!rst.FieldVal!Q11)
+	Gui.frmMain.chkQ12.Value(V.ODBC.connect!rst.FieldVal!Q12)
+	Gui.frmMain.chkQ13.Value(V.ODBC.connect!rst.FieldVal!Q13)
+	Gui.frmMain.chkQ14.Value(V.ODBC.connect!rst.FieldVal!Q14)
+	Gui.frmMain.chkQ15.Value(V.ODBC.connect!rst.FieldVal!Q15)
+	Gui.frmMain.chkQ16.Value(V.ODBC.connect!rst.FieldVal!Q16)
+	Gui.frmMain.chkQ17.Value(V.ODBC.connect!rst.FieldVal!Q17)
+	Gui.frmMain.chkQ18.Value(V.ODBC.connect!rst.FieldVal!Q18)
+	Gui.frmMain.chkQ19.Value(V.ODBC.connect!rst.FieldVal!Q19)
+	Gui.frmMain.chkQ20.Value(V.ODBC.connect!rst.FieldVal!Q20)
+	Gui.frmMain.chkQ21.Value(V.ODBC.connect!rst.FieldVal!Q21)
+	Gui.frmMain.chkQ22.Value(V.ODBC.connect!rst.FieldVal!Q22)
+	Gui.frmMain.chkQ23.Value(V.ODBC.connect!rst.FieldVal!Q23)
+	Gui.frmMain.chkQ24.Value(V.ODBC.connect!rst.FieldVal!Q24)
+	Gui.frmMain.chkQ25.Value(V.ODBC.connect!rst.FieldVal!Q25)
+	Gui.frmMain.chkQ26.Value(V.ODBC.connect!rst.FieldVal!Q26)
+	Gui.frmMain.chkQ27.Value(V.ODBC.connect!rst.FieldVal!Q27)
+	Gui.frmMain.chkQ28.Value(V.ODBC.connect!rst.FieldVal!Q28)
+	Gui.frmMain.txtMatAging.Text(V.ODBC.connect!rst.FieldVal!MAT_AGING)
+	Gui.frmMain.chk30.Value(V.ODBC.connect!rst.FieldVal!Q30)
+	Gui.frmMain.chk31.Value(V.ODBC.connect!rst.FieldVal!Q31)
+	Gui.frmMain.ddlQ13SOLine.Text(V.ODBC.connect!rst.FieldValtrim!Q13_YESORNO)
+	Gui.frmMain.ddlQ16SOLine.Text(V.ODBC.connect!rst.FieldValtrim!Q16_YESORNO)
+	Gui.frmMain.ddlQ19SOLine.Text(V.ODBC.connect!rst.FieldValtrim!Q19_YESORNO)
+	Gui.frmMain.ddlQ20SOLine.Text(V.ODBC.connect!rst.FieldValtrim!Q20_YESORNO)
+	Gui.frmMain.ddlQ23SOLine.Text(V.ODBC.connect!rst.FieldValtrim!Q23_YESORNO)
+	Gui.frmMain.ddlQ24SOLine.Text(V.ODBC.connect!rst.FieldValtrim!Q24_YESORNO)
+	Gui.frmMain.txtDODRating.Text(V.ODBC.connect!rst.FieldValtrim!Q15_DODRATING)
+F.Intrinsic.Control.Else
+	F.Intrinsic.Control.CallSub(Sub_load_nos)
+F.Intrinsic.Control.EndIf
+
+F.ODBC.connect!rst.Close
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("sub_po_load_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_UnitedSeal_QARequirements.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(Frmmain_unload)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.sub_po_load.End
+
+Program.Sub.sub_po_save.Start
+F.Intrinsic.Control.SetErrorHandler("sub_po_save_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+
+V.Local.sPart.Declare(String)
+V.Local.sRev.Declare(String)
+V.Local.sLoc.Declare(String)
+V.Local.sPOnumb.Declare(String)
+V.Local.sPOline.Declare(String)
+V.Local.sSQL.Declare(String)
+
+V.Local.sPOnumb.Set(V.Passed.008002)
+V.Local.sPOline.Set(V.Passed.008001)
+V.Local.sPart.Set(V.Passed.000008.Trim)
+V.Local.sRev.Set(V.Passed.000009.Trim)
+V.Local.sLoc.Set(V.Passed.000011.Trim)
+
+F.Intrinsic.String.Concat(" SELECT * FROM GCG_PO_QR where PO_NUMBER='",V.Local.sPOnumb,"' AND PO_LINE = '",V.Local.sPOline,"' AND PART = '",V.Local.sPart,"' and Rev = '",V.Local.sRev,"' and Loc = '",V.Local.sLoc,"'",V.Local.sSQL)
+F.ODBC.Connection!connect.OpenRecordsetRW("rst",V.Local.sSQL)
+F.Intrinsic.Control.If(V.ODBC.Connect!rst.EOF,=,True)
+	F.ODBC.connect!rst.AddNew
+	F.ODBC.connect!rst.Set!PART(V.Local.sPart)
+	F.ODBC.connect!rst.Set!Rev(V.Local.sRev)
+	F.ODBC.connect!rst.Set!Loc(V.Local.sLoc)
+F.Intrinsic.Control.endif
+
+F.ODBC.connect!rst.Set!FAI_REQ(V.Screen.frmMain!ddlFAIReqSOLine.text)
+F.ODBC.connect!rst.Set!FAI_TYPE(V.Screen.frmMain!ddlFAIReq.Text)
+F.ODBC.connect!rst.Set!PRE_SHIP(V.Screen.frmMain!chkPreShipAuth.Value)
+F.ODBC.connect!rst.Set!Q11(V.Screen.frmMain!chkQ11.Value)
+F.ODBC.connect!rst.Set!Q12(V.Screen.frmMain!chkQ12.Value)
+F.ODBC.connect!rst.Set!Q13(V.Screen.frmMain!chkQ13.Value)
+F.ODBC.connect!rst.Set!Q14(V.Screen.frmMain!chkQ14.Value)
+F.ODBC.connect!rst.Set!Q15(V.Screen.frmMain!chkQ15.Value)
+F.ODBC.connect!rst.Set!Q16(V.Screen.frmMain!chkQ16.Value)
+F.ODBC.connect!rst.Set!Q17(V.Screen.frmMain!chkQ17.Value)
+F.ODBC.connect!rst.Set!Q18(V.Screen.frmMain!chkQ18.Value)
+F.ODBC.connect!rst.Set!Q19(V.Screen.frmMain!chkQ19.Value)
+F.ODBC.connect!rst.Set!Q20(V.Screen.frmMain!chkQ20.Value)
+F.ODBC.connect!rst.Set!Q21(V.Screen.frmMain!chkQ21.Value)
+F.ODBC.connect!rst.Set!Q22(V.Screen.frmMain!chkQ22.Value)
+F.ODBC.connect!rst.Set!Q23(V.Screen.frmMain!chkQ23.Value)
+F.ODBC.connect!rst.Set!Q24(V.Screen.frmMain!chkQ24.Value)
+F.ODBC.connect!rst.Set!Q25(V.Screen.frmMain!chkQ25.Value)
+F.ODBC.connect!rst.Set!Q26(V.Screen.frmMain!chkQ26.Value)
+F.ODBC.connect!rst.Set!Q27(V.Screen.frmMain!chkQ27.Value)
+F.ODBC.connect!rst.Set!Q28(V.Screen.frmMain!chkQ28.Value)
+F.ODBC.connect!rst.Set!MAT_AGING(V.Screen.frmMain!txtMatAging.Text)
+F.ODBC.connect!rst.Set!Q30(V.Screen.frmMain!chk30.Value)
+F.ODBC.connect!rst.Set!Q31(V.Screen.frmMain!chk31.Value)
+F.ODBC.connect!rst.Set!Q13_YESORNO(V.Screen.frmMain!ddlQ13SOLine.text)
+F.ODBC.connect!rst.Set!Q16_YESORNO(V.Screen.frmMain!ddlQ16SOLine.text)
+F.ODBC.connect!rst.Set!Q19_YESORNO(V.Screen.frmMain!ddlQ19SOLine.text)
+F.ODBC.connect!rst.Set!Q20_YESORNO(V.Screen.frmMain!ddlQ20SOLine.text)
+F.ODBC.connect!rst.Set!Q23_YESORNO(V.Screen.frmMain!ddlQ23SOLine.text)
+F.ODBC.connect!rst.Set!Q24_YESORNO(V.Screen.frmMain!ddlQ24SOLine.text)
+F.ODBC.connect!rst.Set!Q15_DODRATING(V.Screen.frmMain!txtDODRating.text)
+F.ODBC.connect!rst.Update
+'		F.Intrinsic.UI.Msgbox("Saved")
+F.ODBC.connect!rst.Close
+F.Intrinsic.Control.CallSub(Frmmain_unload)
+
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("sub_po_save_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_UnitedSeal_QARequirements.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(frmmain_unlo)ad
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.sub_po_save.End
+
+Program.Sub.sub_po_delete.Start
+F.Intrinsic.Control.SetErrorHandler("sub_po_delete_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+V.Local.sSql.Declare(String)
+V.Local.sPONum.Declare(String)
+
+F.Intrinsic.Control.SelectCase(V.Caller.Hook)
+
+	F.Intrinsic.Control.Case(17070)
+		F.Intrinsic.String.Build("Delete From GCG_PO_QR where PO_Number = '{0}' and PO_Line = '{1}'",V.Passed.008002.Trim,V.Passed.008001.Trim,V.Local.sSql)
+		F.ODBC.Connection!connect.Execute(V.Local.sSql)
+
+	F.Intrinsic.Control.Case(16884)
+		F.Intrinsic.String.LPad(V.Passed.000008,"0",7,V.Local.sPONum)
+		F.Intrinsic.String.Build("Delete From GCG_PO_QR where PO_Number = '{0}'",V.Local.sPONum,V.Local.sSql)
+		F.ODBC.Connection!connect.Execute(V.Local.sSql)
+
+F.Intrinsic.Control.EndSelect
+
+F.Intrinsic.Control.CallSub(Frmmain_unload)
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("sub_po_delete_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_UnitedSeal_QARequirements.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(Frmmain_unload)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.sub_po_delete.End
+
+Program.Sub.sales_QR_Lines.Start
+V.Local.sSql.Declare(String)
+V.Local.sOrder.Declare(String)
+V.Local.sPartNo.Declare(String)
+V.Local.iCount.Declare(Long)
+
+V.uGlobal.uQRLine.Redim(-1,-1)
+V.Local.iCount.Set(0)
+
+V.Local.sOrder.Set(V.Passed.000003.Trim)
+
+F.Intrinsic.String.Build("Select * from GCG_3975_SALES_QR where SO_Number = '{0}'",V.Local.sOrder,V.Local.sSql)
+F.ODBC.Connection!connect.OpenLocalRecordsetRO("rstSO",V.Local.sSql)
+
+F.Intrinsic.Control.If(V.ODBC.connect!rstSO.EOF,=,False)
+	F.Intrinsic.Control.If(V.uGlobal.uQRLine.UBound,=,-1)
+		V.uGlobal.uQRLine.Redim(0,0)
+	F.Intrinsic.Control.EndIf
+	F.Intrinsic.Control.DoUntil(V.ODBC.connect!rstSO.EOF,=,True)
+
+		F.Intrinsic.Control.If(V.ODBC.connect!rstSO.FieldValTrim!FAI_Type,!=,"")
+			F.Intrinsic.Control.If(V.ODBC.connect!rstSO.FieldValTrim!Fai_Req,=,"Yes")
+				'Need to add QA for Part for FAI
+				V.uGlobal.uQRLine.RedimPreserve(0,V.Local.iCount)
+				F.Intrinsic.String.Left(V.ODBC.connect!rstSO.FieldValTrim!FAI_Type,6,V.Local.sPartNo)
+				F.Intrinsic.String.Build("{0}-{1}",V.Local.sPartNo,V.ODBC.connect!rstSO.FieldValTrim!Part,V.Local.sPartNo)
+				V.uGlobal.uQRLine(v.Local.iCount)!sPartNumber.Set(V.Local.sPartNo)
+				V.uGlobal.uQRLine(v.Local.iCount)!sPartDesc.Set(V.ODBC.connect!rstSO.FieldValTrim!FAI_Type)
+				F.Intrinsic.Math.Add(V.Local.iCount,1,V.Local.iCount)
+			F.Intrinsic.Control.EndIf
+		F.Intrinsic.Control.EndIf
+
+		F.Intrinsic.Control.If(V.ODBC.connect!rstSO.FieldValTrim!Q13,!=,0)
+			F.Intrinsic.Control.If(V.ODBC.connect!rstSO.FieldValTrim!Q13_YesOrNo,=,"Yes")
+				'Need to Add QA for Part for Q13
+				V.uGlobal.uQRLine.RedimPreserve(0,V.Local.iCount)
+'				F.Intrinsic.Math.Add(V.Local.iCount,1,V.Local.iCount)
+				F.Intrinsic.String.Build("Q13-{0}",V.ODBC.connect!rstSO.FieldValLTrim!Part,V.Local.sPartNo)
+				V.uGlobal.uQRLine(v.Local.iCount)!sPartNumber.Set(V.Local.sPartNo)
+				V.uGlobal.uQRLine(v.Local.iCount)!sPartDesc.Set("Special C of C")
+				F.Intrinsic.Math.Add(V.Local.iCount,1,V.Local.iCount)
+			F.Intrinsic.Control.EndIf
+		F.Intrinsic.Control.EndIf
+
+		F.Intrinsic.Control.If(V.ODBC.connect!rstSO.FieldValTrim!Q16,!=,0)
+			F.Intrinsic.Control.If(V.ODBC.connect!rstSO.FieldValTrim!Q16_YesOrNo,=,"Yes")
+				'Need to Add QA for part for Q16
+				V.uGlobal.uQRLine.RedimPreserve(0,V.Local.iCount)
+'				F.Intrinsic.Math.Add(V.Local.iCount,1,V.Local.iCount)
+				F.Intrinsic.String.Build("Q16-{0}",V.ODBC.connect!rstSO.FieldValLTrim!Part,V.Local.sPartNo)
+				V.uGlobal.uQRLine(v.Local.iCount)!sPartNumber.Set(V.Local.sPartNo)
+				V.uGlobal.uQRLine(v.Local.iCount)!sPartDesc.Set("Manufacture Cert")
+				F.Intrinsic.Math.Add(V.Local.iCount,1,V.Local.iCount)
+			F.Intrinsic.Control.EndIf
+		F.Intrinsic.Control.EndIf
+
+		F.Intrinsic.Control.If(V.ODBC.connect!rstSO.FieldValTrim!Q19,!=,0)
+			F.Intrinsic.Control.If(V.ODBC.connect!rstSO.FieldValTrim!Q19_YesOrNO,=,"Yes")
+				'Need to add QA for part Q19
+				V.uGlobal.uQRLine.RedimPreserve(0,V.Local.iCount)
+'				F.Intrinsic.Math.Add(V.Local.iCount,1,V.Local.iCount)
+				F.Intrinsic.String.Build("Q19-{0}",V.ODBC.connect!rstSO.FieldValLTrim!Part,V.Local.sPartNo)
+				V.uGlobal.uQRLine(v.Local.iCount)!sPartNumber.Set(V.Local.sPartNo)
+				V.uGlobal.uQRLine(v.Local.iCount)!sPartDesc.Set("Physical Test")
+				F.Intrinsic.Math.Add(V.Local.iCount,1,V.Local.iCount)
+			F.Intrinsic.Control.EndIf
+		F.Intrinsic.Control.Endif
+
+		F.Intrinsic.Control.If(V.ODBC.connect!rstSO.FieldValLTrim!Q20,!=,0)
+			F.Intrinsic.Control.If(V.ODBC.connect!rstSO.FieldValLTrim!Q20_YesOrNo,=,"Yes")
+				'Need to add QA for part Q20
+				V.uGlobal.uQRLine.RedimPreserve(0,V.Local.iCount)
+'				F.Intrinsic.Math.Add(V.Local.iCount,1,V.Local.iCount)
+				F.Intrinsic.String.Build("Q20-{0}",V.ODBC.connect!rstSO.FieldValLTrim!Part,V.Local.sPartNo)
+				V.uGlobal.uQRLine(v.Local.iCount)!sPartNumber.Set(V.Local.sPartNo)
+				V.uGlobal.uQRLine(v.Local.iCount)!sPartDesc.Set("Chemical Test")
+				F.Intrinsic.Math.Add(V.Local.iCount,1,V.Local.iCount)
+			F.Intrinsic.Control.EndIf
+		F.Intrinsic.Control.EndIf
+
+		F.Intrinsic.Control.If(V.ODBC.connect!rstSO.FieldValLTrim!Q23,!=,0)
+			F.Intrinsic.Control.If(V.ODBC.connect!rstSO.FieldValLTrim!Q23_YesOrNo,=,"Yes")
+				'Need to add QA for part Q23
+				V.uGlobal.uQRLine.RedimPreserve(0,V.Local.iCount)
+'				F.Intrinsic.Math.Add(V.Local.iCount,1,V.Local.iCount)
+				F.Intrinsic.String.Build("Q23-{0}",V.ODBC.connect!rstSO.FieldValLTrim!Part,V.Local.sPartNo)
+				V.uGlobal.uQRLine(v.Local.iCount)!sPartNumber.Set(V.Local.sPartNo)
+				V.uGlobal.uQRLine(v.Local.iCount)!sPartDesc.Set("Src Insp Buyer")
+				F.Intrinsic.Math.Add(V.Local.iCount,1,V.Local.iCount)
+			F.Intrinsic.Control.EndIf
+		F.Intrinsic.Control.EndIf
+
+		F.Intrinsic.Control.If(V.ODBC.connect!rstSO.FieldValLTrim!Q24,!=,0)
+			F.Intrinsic.Control.If(V.ODBC.connect!rstSO.FieldValLTrim!Q24_YesOrNo,=,"Yes")
+				'Need to add QA for Q24
+				V.uGlobal.uQRLine.RedimPreserve(0,V.Local.iCount)
+'				F.Intrinsic.Math.Add(V.Local.iCount,1,V.Local.iCount)
+				F.Intrinsic.String.Build("Q24-{0}",V.ODBC.connect!rstSO.FieldValLTrim!Part,V.Local.sPartNo)
+				V.uGlobal.uQRLine(v.Local.iCount)!sPartNumber.Set(V.Local.sPartNo)
+				V.uGlobal.uQRLine(v.Local.iCount)!sPartDesc.Set("Src Insp Govt")
+				F.Intrinsic.Math.Add(V.Local.iCount,1,V.Local.iCount)
+			F.Intrinsic.Control.EndIf
+		F.Intrinsic.Control.EndIf
+
+		F.ODBC.connect!rstSO.MoveNext
+	F.Intrinsic.Control.Loop
+F.Intrinsic.Control.EndIf
+F.ODBC.connect!rstSO.Close
+
+F.Intrinsic.String.LPad(V.Local.sOrder,"0",7,V.Local.sOrder)
+
+F.Intrinsic.String.Build("Select Order_Currency from v_Order_Header where Order_No = '{0}'",V.Local.sOrder.Trim,V.Local.sSql)
+F.ODBC.Connection!connect.OpenLocalRecordsetRO("rstCur",V.Local.sSql)
+F.Intrinsic.Control.If(V.ODBC.connect!rstCur.EOF,=,False)
+	F.Intrinsic.Variable.UDTSetMemberValue(V.uGlobal.uQRLine!sCurrency,V.ODBC.connect!rstCur.FieldValTrim!Order_Currency)
+F.Intrinsic.Control.EndIf
+F.ODBC.connect!rstCur.Close
+
+F.Intrinsic.Control.CallSub(Sales_upload)
+
+Program.Sub.sales_QR_Lines.End
+
+Program.Sub.sales_upload.Start
+V.Local.sOrderNo.Declare(String)
+V.Local.sQRLine.Declare(String)
+V.Local.sQRFile.Declare(String)
+V.Local.sFilepath.Declare(String)
+V.Local.sTempPath.Declare(String)
+V.Local.sDelete.Declare(String)
+V.Local.sSql.Declare(String)
+V.Local.iCount.Declare(Long)
+V.Local.bExists.Declare(Boolean)
+
+V.Local.sOrderNo.Set(V.Passed.000003)
+F.Intrinsic.String.LPad(V.Local.sOrderNo,"0",7,V.Local.sOrderNo)
+
+
+F.Intrinsic.UI.InvokeWaitDialog("Updating QA Requirement Lines.","Order Update")
+
+
+
+F.Intrinsic.String.Build("{0}\SALESHDR.txt",V.Caller.FilesDir,V.Local.sFilepath)
+
+F.Intrinsic.String.Build("{0}\{1}SALESHDR.TXT",V.Caller.FilesDir,V.Local.sOrderNo,V.Local.sTempPath)
+
+
+F.Intrinsic.File.Exists(V.Local.sTempPath,V.Local.bExists)
+F.Intrinsic.Control.If(V.Local.bExists,=,True)
+
+	'F.Intrinsic.UI.Sleep(5)
+
+	F.Intrinsic.File.Exists(V.Local.sFilepath,V.Local.bExists)
+	F.Intrinsic.Control.DoUntil(V.Local.bExists,=,False)
+
+	F.Intrinsic.UI.Sleep(1)
+	F.Intrinsic.File.Exists(V.Local.sFilepath,V.Local.bExists)
+	F.Intrinsic.Control.Loop
+	'rename temp
+	F.Intrinsic.File.CopyFile(V.Local.sTempPath,V.Local.sFilepath)
+
+	F.Global.General.CallWrapperSync(50,"UPLSALES/a")
+	'delete
+	F.Intrinsic.File.DeleteFile(V.Local.sFilepath)
+	F.Intrinsic.File.DeleteFile(V.Local.sTempPath)
+F.Intrinsic.Control.EndIf
+
+
+
+F.Intrinsic.String.Build("{0}\{1}Delete.txt",V.Caller.FilesDir,V.Local.sOrderNo,V.Local.sFilepath)
+
+F.Intrinsic.File.Exists(V.Local.sFilepath,V.Local.bExists)
+F.Intrinsic.Control.If(V.Local.bExists,=,True)
+	F.Intrinsic.File.File2String(V.Local.sFilepath,V.Local.sDelete)
+	F.Intrinsic.String.Split(V.Local.sDelete,V.Ambient.NewLine,V.Local.sDelete)
+	F.Intrinsic.Control.If(V.Local.sDelete(0),!=,"")
+		F.Intrinsic.Control.For(V.Local.iCount,0,V.Local.sDelete.UBound,1)
+			F.Intrinsic.String.Build("Delete from Order_Lines where Order_No = '{0}' and Part = '{1}'",V.Local.sOrderNo,V.Local.sDelete(v.Local.iCount),V.Local.sSql)
+			F.ODBC.Connection!connect.Execute(V.Local.sSql)
+		F.Intrinsic.Control.Next(V.Local.iCount)
+	F.Intrinsic.Control.EndIf
+
+	F.Intrinsic.File.DeleteFile(V.Local.sFilepath)
+F.Intrinsic.Control.EndIf
+
+F.Intrinsic.UI.CloseWaitDialog
+
+F.Intrinsic.Control.CallSub(Frmmain_unload)
+
+Program.Sub.sales_upload.End
+
+Program.Sub.Sales_TempFile.Start
+
+V.Local.sTempFile.Declare(String)
+V.Local.sTempLine.Declare(String)
+V.Local.sCurr.Declare(String)
+V.Local.sOrderNo.Declare(String)
+V.Local.sSql.Declare(String)
+V.Local.bFileExists.Declare(Boolean)
+
+V.Local.sOrderNo.Set(V.Passed.000060)
+F.Intrinsic.String.LPad(V.Local.sOrderNo,"0",7,V.Local.sOrderNo)
+'Get Currency
+F.Intrinsic.String.Build("Select Order_Currency from v_Order_Header where Order_No = '{0}'",V.Local.sOrderNo.Trim,V.Local.sSql)
+F.ODBC.Connection!connect.OpenLocalRecordsetRO("rstCur",V.Local.sSql)
+F.Intrinsic.Control.If(V.ODBC.connect!rstCur.EOF,=,False)
+	V.Local.sCurr.Set(V.ODBC.connect!rstCur.FieldValTrim!Order_Currency)
+F.Intrinsic.Control.EndIf
+F.ODBC.connect!rstCur.Close
+
+'build the Sales order line string for the upload file
+
+F.Intrinsic.String.RPad(V.Local.sOrderNo," ",10,V.Local.sOrderNo)
+F.Intrinsic.String.Build("{0}L",V.Local.sOrderNo,V.Local.sTempLine)
+F.Intrinsic.String.RPad(V.Local.sTempLine," ",30,V.Local.sTempLine)
+F.Intrinsic.String.Build("{0}1",V.Local.sTempLine,V.Local.sTempLine)
+F.Intrinsic.String.RPad(V.Local.sTempLine," ",62,V.Local.sTempLine)
+F.Intrinsic.String.Build("{0}1",V.Local.sTempLine,V.Local.sTempLine)
+F.Intrinsic.String.RPad(V.Local.sTempLine," ",96,V.Local.sTempLine)
+F.Intrinsic.String.Build("{0}{1}",V.Local.sTempLine,V.Args.NewPartNo,V.Local.sTempLine)
+F.Intrinsic.String.RPad(V.Local.sTempLine," ",116,V.Local.sTempLine)
+F.Intrinsic.String.Build("{0}.01",V.Local.sTempLine,V.Local.sTempLine)
+F.Intrinsic.String.RPad(V.Local.sTempLine," ",166,V.Local.sTempLine)
+F.Intrinsic.String.Build("{0}{1}",V.Local.sTempLine,V.Args.NewPartDesc,V.Local.sTempLine)
+F.Intrinsic.String.RPad(V.Local.sTempLine," ",564,V.Local.sTempLine)
+F.Intrinsic.String.Build("{0}{1}.01",V.Local.sTempLine,V.Local.sCurr,V.Local.sTempLine)
+F.Intrinsic.String.RPad(V.Local.sTempLine," ",847,V.Local.sTempLine)
+F.Intrinsic.String.Build("{0}{1}",V.Local.sTempLine,V.Ambient.NewLine,V.Local.sTempLine)
+
+
+F.Intrinsic.String.Build("{0}\{1}SALESHDR.TXT",V.Caller.FilesDir,V.Local.sOrderNo.Trim,V.Local.sTempFile)
+F.Intrinsic.File.Exists(V.Local.sTempFile,V.Local.bFileExists)
+
+F.Intrinsic.Control.If(V.Local.bFileExists,=,False)
+	F.Intrinsic.File.String2File(V.Local.sTempFile,V.Local.sTempLine)
+F.Intrinsic.Control.Else
+	F.Intrinsic.File.Append2File(V.Local.sTempFile,V.Local.sTempLine)
+F.Intrinsic.Control.EndIf
+
+Program.Sub.Sales_TempFile.End
+
+Program.Sub.Sales_Delete_Line.Start
+
+V.Local.sOrderNo.Declare(String)
+V.Local.sDelFile.Declare(String)
+V.Local.sDelLine.Declare(String)
+V.Local.bDelExist.Declare(Boolean)
+
+V.Local.sOrderNo.Set(V.Passed.000060)
+F.Intrinsic.String.LPad(V.Local.sOrderNo,"0",7,V.Local.sOrderNo)
+
+F.Intrinsic.String.Build("{0}{1}",V.Args.DelPart,V.Ambient.NewLine,V.Local.sDelLine)
+
+F.Intrinsic.String.Build("{0}\{1}Delete.TXT",V.Caller.FilesDir,V.Local.sOrderNo.Trim,V.Local.sDelFile)
+F.Intrinsic.File.Exists(V.Local.sDelFile,V.Local.bDelExist)
+
+F.Intrinsic.Control.If(V.Local.bDelExist,=,False)
+	F.Intrinsic.File.String2File(V.Local.sDelFile,V.Local.sDelLine)
+F.Intrinsic.Control.Else
+	F.Intrinsic.File.Append2File(V.Local.sDelFile,V.Local.sDelLine)
+F.Intrinsic.Control.EndIf
+
+Program.Sub.Sales_Delete_Line.End
+
+
